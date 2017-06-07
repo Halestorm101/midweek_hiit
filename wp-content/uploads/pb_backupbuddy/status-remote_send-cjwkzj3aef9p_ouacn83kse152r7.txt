@@ -1,0 +1,41 @@
+{"event":"details","time":1479221785,"u":"44","run":"1.05","mem":"49.80","data":"----- Initiating master send function for BackupBuddy v7.2.1.0 for basename file: `backup-www_midweekhiit_com-2016_11_15-01_47am-full-k7xhwe82y1.zip`. Post-send deletion: 1"}
+{"event":"details","time":1479221785,"u":"48","run":"1.08","mem":"49.81","data":"Created fileoptions lock file `send-cjwkzj3aef9p.txt.lock` with ID: 582b2219752eb3.14154384."}
+{"event":"details","time":1479221785,"u":"48","run":"1.08","mem":"49.81","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1479221785,"u":"48","run":"1.08","mem":"49.81","data":"Fileoptions `send-cjwkzj3aef9p.txt` saved. 1116 bytes written."}
+{"event":"details","time":1479221785,"u":"48","run":"1.08","mem":"49.81","data":"Initializing destination."}
+{"event":"details","time":1479221785,"u":"49","run":"1.09","mem":"49.81","data":"Loading destination init file `\/home\/midweek\/public_html\/wp-content\/plugins\/backupbuddy\/destinations\/dropbox2\/init.php`."}
+{"event":"details","time":1479221785,"u":"50","run":"1.10","mem":"49.94","data":"Destination init loaded."}
+{"event":"details","time":1479221785,"u":"66","run":"1.27","mem":"50.00","data":"Initialized `dropbox2` destination."}
+{"event":"details","time":1479221785,"u":"67","run":"1.27","mem":"50.00","data":"Applying destination-specific defaults."}
+{"event":"details","time":1479221785,"u":"67","run":"1.27","mem":"50.00","data":"Applying global destination defaults."}
+{"event":"details","time":1479221785,"u":"67","run":"1.27","mem":"50.00","data":"Calling destination-specific send method."}
+{"event":"details","time":1479221785,"u":"67","run":"1.27","mem":"50.01","data":"Dropbox2 send function started. Remote send id: `cjwkzj3aef9p`."}
+{"event":"details","time":1479221785,"u":"68","run":"1.29","mem":"50.30","data":"Connected to Dropbox."}
+{"event":"details","time":1479221785,"u":"68","run":"1.29","mem":"50.30","data":"Opening file `backup-www_midweekhiit_com-2016_11_15-01_47am-full-k7xhwe82y1.zip` to send."}
+{"event":"details","time":1479221785,"u":"68","run":"1.29","mem":"50.30","data":"Dropbox send not set to be chunked."}
+{"event":"details","time":1479221785,"u":"68","run":"1.29","mem":"50.30","data":"About to put file `backup-www_midweekhiit_com-2016_11_15-01_47am-full-k7xhwe82y1.zip` (63.17 MB) to Dropbox (PHP 5.3+)."}
+{"event":"details","time":1479221825,"u":"23","run":"40.84","mem":"50.47","data":"About to load fileoptions data."}
+{"event":"details","time":1479221825,"u":"23","run":"40.84","mem":"50.47","data":"Fileoptions instance #14."}
+{"event":"details","time":1479221825,"u":"23","run":"40.84","mem":"50.47","data":"Created fileoptions lock file `send-cjwkzj3aef9p.txt.lock` with ID: 582b224139a143.56449050."}
+{"event":"details","time":1479221825,"u":"23","run":"40.84","mem":"50.48","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1479221825,"u":"23","run":"40.84","mem":"50.48","data":"Fileoptions data loaded."}
+{"event":"details","time":1479221825,"u":"23","run":"40.84","mem":"50.48","data":"Dropbox (non-chunked) transfer stats - Sent: `63.17 MB`, Transfer duration: `39.548812151`, Speed: `1.6 MB\/sec`."}
+{"event":"details","time":1479221825,"u":"23","run":"40.84","mem":"50.48","data":"Fileoptions `send-cjwkzj3aef9p.txt` saved. 1164 bytes written."}
+{"event":"message","time":1479221825,"u":"23","run":"40.84","mem":"50.48","data":"Success sending `backup-www_midweekhiit_com-2016_11_15-01_47am-full-k7xhwe82y1.zip` to Dropbox!"}
+{"event":"details","time":1479221825,"u":"23","run":"40.84","mem":"50.48","data":"Dropbox file limit in place. Proceeding with enforcement."}
+{"event":"details","time":1479221825,"u":"63","run":"41.24","mem":"50.49","data":"Dropbox backup file count of `4` exceeds limit of `3`."}
+{"event":"details","time":1479221826,"u":"62","run":"42.23","mem":"50.49","data":"Deleted excess Dropbox file: `\/MidweekHiit\/backup-www_midweekhiit_com-2016_10_01-12_02am-full-isgbamp0ac.zip`"}
+{"event":"details","time":1479221826,"u":"63","run":"42.23","mem":"50.49","data":"All files sent."}
+{"event":"details","time":1479221826,"u":"63","run":"42.23","mem":"50.47","data":"Completed send function. Success."}
+{"event":"details","time":1479221826,"u":"63","run":"42.23","mem":"50.47","data":"About to load fileoptions data."}
+{"event":"details","time":1479221826,"u":"63","run":"42.23","mem":"50.47","data":"Fileoptions instance #16."}
+{"event":"details","time":1479221826,"u":"63","run":"42.23","mem":"50.47","data":"Created fileoptions lock file `send-cjwkzj3aef9p.txt.lock` with ID: 582b22429a3684.04376850."}
+{"event":"details","time":1479221826,"u":"63","run":"42.23","mem":"50.47","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1479221826,"u":"63","run":"42.23","mem":"50.47","data":"Fileoptions data loaded."}
+{"event":"details","time":1479221826,"u":"63","run":"42.23","mem":"50.47","data":"Post-send deletion enabled."}
+{"event":"details","time":1479221826,"u":"63","run":"42.23","mem":"50.47","data":"Performing post-send deletion since transfer succeeded."}
+{"event":"details","time":1479221826,"u":"63","run":"42.23","mem":"50.47","data":"Deleting local file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-www_midweekhiit_com-2016_11_15-01_47am-full-k7xhwe82y1.zip`."}
+{"event":"details","time":1479221826,"u":"72","run":"42.33","mem":"50.47","data":"Deleted local file after successful remote destination send based on settings."}
+{"event":"archiveDeleted","time":1479221826,"u":"73","run":"42.33","mem":"50.47","data":""}
+{"event":"details","time":1479221826,"u":"73","run":"42.33","mem":"50.47","data":"Finished sending email NOT enabled. Skipping."}
+{"event":"details","time":1479221826,"u":"73","run":"42.34","mem":"50.46","data":"Ending send() function pass."}

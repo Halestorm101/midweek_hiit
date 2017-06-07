@@ -1,0 +1,28 @@
+{"event":"details","time":1474623247,"u":"21","run":"75.55","mem":"71.44","data":"----- Initiating master send function for BackupBuddy v7.1.6.0 for basename file: `repeater.min.js`. Post-send deletion: "}
+{"event":"details","time":1474623247,"u":"21","run":"75.55","mem":"71.44","data":"Created fileoptions lock file `send-live_c28643734ac796ba80c0e25eb81e7991-4d2hq6.txt.lock` with ID: 57e4f70f3426d4.53383391."}
+{"event":"details","time":1474623247,"u":"21","run":"75.55","mem":"71.44","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1474623247,"u":"21","run":"75.55","mem":"71.45","data":"Fileoptions `send-live_c28643734ac796ba80c0e25eb81e7991-4d2hq6.txt` saved. 3152 bytes written."}
+{"event":"details","time":1474623247,"u":"21","run":"75.55","mem":"71.44","data":"Initializing destination."}
+{"event":"details","time":1474623247,"u":"21","run":"75.55","mem":"71.44","data":"Loading destination init file `\/home\/midweek\/public_html\/wp-content\/plugins\/backupbuddy\/destinations\/live\/init.php`."}
+{"event":"details","time":1474623247,"u":"21","run":"75.55","mem":"71.44","data":"Destination init loaded."}
+{"event":"details","time":1474623247,"u":"21","run":"75.55","mem":"71.44","data":"Initialized `live` destination."}
+{"event":"details","time":1474623247,"u":"21","run":"75.55","mem":"71.44","data":"Applying destination-specific defaults."}
+{"event":"details","time":1474623247,"u":"21","run":"75.55","mem":"71.45","data":"Applying global destination defaults."}
+{"event":"details","time":1474623247,"u":"21","run":"75.55","mem":"71.45","data":"Calling destination-specific send method."}
+{"event":"details","time":1474623247,"u":"21","run":"75.55","mem":"71.46","data":"Starting S32 send()."}
+{"event":"details","time":1474623247,"u":"21","run":"75.55","mem":"71.47","data":"File size of `4 KB`."}
+{"event":"details","time":1474623247,"u":"21","run":"75.55","mem":"71.47","data":"Initiating multipart transfer."}
+{"event":"details","time":1474623247,"u":"26","run":"75.60","mem":"71.47","data":"Initiated multipart upload with ID `RqLXfAYE.cFPZtJyYgeQidYT28mr03Cc2f4jdirgNztDlAsc1usCNrie_qZuz7Ds_0IL91AlyAWWgbL_MydmTWgKm18yNK.6G5Lp2Lv62pNmmi.7VWJ1KLT4aJbx1P2QFzcSnAdzKWcslknm3ucOvw--`."}
+{"event":"details","time":1474623247,"u":"26","run":"75.60","mem":"71.48","data":"Multipart initiated; passing over to send first chunk this run. Burst size: `10 MB`."}
+{"event":"details","time":1474623247,"u":"26","run":"75.60","mem":"71.47","data":"Max time not set in settings so detecting server max PHP runtime."}
+{"event":"details","time":1474623247,"u":"26","run":"75.60","mem":"71.47","data":"Using max runtime: `84`."}
+{"event":"details","time":1474623247,"u":"26","run":"75.60","mem":"71.47","data":"About to read in part contents of part `1` of `1` parts of file `\/home\/midweek\/public_html\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/repeater.min.js` to remote location `etuaex4u407w9159\/8ab92a213bd0e7b0217449f2f8273e47d74e9da6\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/repeater.min.js` with multipart ID `RqLXfAYE.cFPZtJyYgeQidYT28mr03Cc2f4jdirgNztDlAsc1usCNrie_qZuz7Ds_0IL91AlyAWWgbL_MydmTWgKm18yNK.6G5Lp2Lv62pNmmi.7VWJ1KLT4aJbx1P2QFzcSnAdzKWcslknm3ucOvw--`."}
+{"event":"details","time":1474623247,"u":"26","run":"75.60","mem":"71.48","data":"Beginning upload."}
+{"event":"details","time":1474623247,"u":"38","run":"75.72","mem":"71.48","data":"Success sending chunk. Enable full logging for upload result details."}
+{"event":"details","time":1474623247,"u":"38","run":"75.72","mem":"71.49","data":"Uploaded size this burst: `4 KB`, Start time: `1474623247.27`. Finish time: `1474623247.39`. Elapsed: `0.119192838669`. Speed: `31 KB`\/sec."}
+{"event":"details","time":1474623247,"u":"38","run":"75.72","mem":"71.48","data":"About to load fileoptions data."}
+{"event":"details","time":1474623247,"u":"38","run":"75.72","mem":"71.48","data":"Fileoptions instance #10."}
+{"event":"details","time":1474623247,"u":"38","run":"75.72","mem":"71.49","data":"Created fileoptions lock file `send-live_c28643734ac796ba80c0e25eb81e7991-4d2hq6.txt.lock` with ID: 57e4f70f5ee7a3.77449267."}
+{"event":"details","time":1474623247,"u":"39","run":"75.72","mem":"71.50","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1474623247,"u":"39","run":"75.72","mem":"71.50","data":"Fileoptions data loaded."}
+{"event":"details","time":1474623247,"u":"39","run":"75.72","mem":"71.50","data":"Getting etags and notifying of multipart upload completion."}

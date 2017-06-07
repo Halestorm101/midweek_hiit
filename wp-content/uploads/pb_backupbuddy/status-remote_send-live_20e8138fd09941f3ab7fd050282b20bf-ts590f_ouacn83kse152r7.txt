@@ -1,0 +1,7 @@
+{"event":"details","time":1475181368,"u":"81","run":"0.67","mem":"63.64","data":"----- Initiating master send function for BackupBuddy v7.2.0.1 for basename file: `wordpress-seo-pt_PT.mo`. Post-send deletion: "}
+{"event":"details","time":1475181368,"u":"81","run":"0.67","mem":"63.65","data":"Created fileoptions lock file `send-live_20e8138fd09941f3ab7fd050282b20bf-ts590f.txt.lock` with ID: 57ed7b38c60622.22741659."}
+{"event":"details","time":1475181368,"u":"81","run":"0.67","mem":"63.64","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1475181368,"u":"81","run":"0.67","mem":"63.65","data":"Fileoptions `send-live_20e8138fd09941f3ab7fd050282b20bf-ts590f.txt` saved. 844 bytes written."}
+{"event":"details","time":1475181368,"u":"81","run":"0.67","mem":"63.65","data":"Initializing destination."}
+{"event":"error","time":1475181368,"u":"81","run":"0.67","mem":"63.65","data":"Error #8548833: Missing destination settings parameters."}
+{"event":"error","time":1475181368,"u":"81","run":"0.67","mem":"63.65","data":"{Error #546893498a. Destination configuration file missing. Destination may have been deleted.}"}

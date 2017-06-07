@@ -1,0 +1,32 @@
+{"event":"details","time":1488275070,"u":"83","run":"0.67","mem":"52.64","data":"----- Initiating master send function for BackupBuddy v7.2.2.0 for basename file: `backup-www_midweekhiit_com-2017_02_27-01_01pm-full-2z6m7t3psg.zip`. Post-send deletion: 1"}
+{"event":"details","time":1488275070,"u":"85","run":"0.70","mem":"52.64","data":"Created fileoptions lock file `send-dwtgwbgcrzyz.txt.lock` with ID: 58b5b6fed13602.01613626."}
+{"event":"details","time":1488275070,"u":"85","run":"0.70","mem":"52.64","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1488275070,"u":"85","run":"0.70","mem":"52.65","data":"Fileoptions `send-dwtgwbgcrzyz.txt` saved. 1128 bytes written."}
+{"event":"details","time":1488275070,"u":"86","run":"0.70","mem":"52.64","data":"Initializing destination."}
+{"event":"details","time":1488275070,"u":"90","run":"0.75","mem":"52.64","data":"Loading destination init file `\/home\/midweek\/public_html\/wp-content\/plugins\/backupbuddy\/destinations\/dropbox2\/init.php`."}
+{"event":"details","time":1488275070,"u":"93","run":"0.77","mem":"52.77","data":"Destination init loaded."}
+{"event":"details","time":1488275070,"u":"99","run":"0.84","mem":"52.84","data":"Initialized `dropbox2` destination."}
+{"event":"details","time":1488275070,"u":"99","run":"0.84","mem":"52.84","data":"Applying destination-specific defaults."}
+{"event":"details","time":1488275070,"u":"00","run":"0.84","mem":"52.84","data":"Applying global destination defaults."}
+{"event":"details","time":1488275070,"u":"00","run":"0.84","mem":"52.84","data":"Calling destination-specific send method."}
+{"event":"details","time":1488275070,"u":"00","run":"0.84","mem":"52.84","data":"Dropbox2 send function started. Remote send id: `dwtgwbgcrzyz`."}
+{"event":"details","time":1488275071,"u":"05","run":"0.90","mem":"53.14","data":"Connected to Dropbox."}
+{"event":"details","time":1488275071,"u":"05","run":"0.90","mem":"53.14","data":"Opening file `backup-www_midweekhiit_com-2017_02_27-01_01pm-full-2z6m7t3psg.zip` to send."}
+{"event":"details","time":1488275071,"u":"05","run":"0.90","mem":"53.14","data":"Dropbox send not set to be chunked."}
+{"event":"details","time":1488275071,"u":"06","run":"0.90","mem":"53.14","data":"About to put file `backup-www_midweekhiit_com-2017_02_27-01_01pm-full-2z6m7t3psg.zip` (66.07 MB) to Dropbox (PHP 5.3+)."}
+{"event":"error","time":1488275163,"u":"91","run":"93.75","mem":"57.51","data":"Dropbox Error: HTTP status 500\n{\"error\": \"The server has either erred or is incapable of performing the requested operation.\"}"}
+{"event":"error","time":1488275163,"u":"91","run":"93.75","mem":"53.32","data":"Error #8239823: One or more errors were encountered attempting to send. See log above for more information such as specific error numbers or the following details. Details: ``."}
+{"event":"details","time":1488275163,"u":"91","run":"93.76","mem":"53.32","data":"Looking for remote send log file to send in error email: `\/home\/midweek\/public_html\/wp-content\/uploads\/pb_backupbuddy\/status-remote_send-dwtgwbgcrzyz_ouacn83kse152r7.txt`."}
+{"event":"details","time":1488275163,"u":"91","run":"93.76","mem":"53.32","data":"Remote send log file found. Attaching to error email."}
+{"event":"details","time":1488275163,"u":"92","run":"93.76","mem":"53.36","data":"Sending email error notification with subject `BackupBuddy Error - http:\/\/www.midweekhiit.com` to recipient(s): `daniel@wsiebiz.com`."}
+{"event":"details","time":1488275164,"u":"08","run":"93.92","mem":"54.14","data":"Fileoptions instance #45."}
+{"event":"details","time":1488275164,"u":"08","run":"93.92","mem":"54.14","data":"Created fileoptions lock file `send-dwtgwbgcrzyz.txt.lock` with ID: 58b5b75c13fb66.96349025."}
+{"event":"details","time":1488275164,"u":"08","run":"93.92","mem":"54.14","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1488275164,"u":"08","run":"93.92","mem":"54.14","data":"Fileoptions `send-dwtgwbgcrzyz.txt` saved. 1248 bytes written."}
+{"event":"details","time":1488275164,"u":"08","run":"93.92","mem":"54.14","data":"Completed send function. Failure. Post-send deletion will be skipped if enabled."}
+{"event":"details","time":1488275164,"u":"08","run":"93.92","mem":"54.14","data":"About to load fileoptions data."}
+{"event":"details","time":1488275164,"u":"09","run":"93.93","mem":"54.14","data":"Fileoptions instance #16."}
+{"event":"details","time":1488275164,"u":"09","run":"93.93","mem":"54.14","data":"Created fileoptions lock file `send-dwtgwbgcrzyz.txt.lock` with ID: 58b5b75c16efd7.42462653."}
+{"event":"details","time":1488275164,"u":"09","run":"93.93","mem":"54.14","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1488275164,"u":"09","run":"93.93","mem":"54.14","data":"Fileoptions data loaded."}
+{"event":"details","time":1488275164,"u":"09","run":"93.94","mem":"54.14","data":"Ending send() function pass."}

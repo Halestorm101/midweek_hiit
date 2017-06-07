@@ -1,0 +1,22 @@
+{"event":"details","time":1474418647,"u":"95","run":"77.88","mem":"68.08","data":"----- Initiating master send function for BackupBuddy v7.1.6.0 for basename file: `BlogUtils.php`. Post-send deletion: "}
+{"event":"details","time":1474418647,"u":"95","run":"77.88","mem":"68.08","data":"Created fileoptions lock file `send-live_7b25724b602997393f50fd1c3f392a63-p09s1a.txt.lock` with ID: 57e1d7d7e91b68.26064328."}
+{"event":"details","time":1474418647,"u":"95","run":"77.88","mem":"68.08","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1474418647,"u":"95","run":"77.88","mem":"68.09","data":"Fileoptions `send-live_7b25724b602997393f50fd1c3f392a63-p09s1a.txt` saved. 3156 bytes written."}
+{"event":"details","time":1474418647,"u":"95","run":"77.88","mem":"68.08","data":"Initializing destination."}
+{"event":"details","time":1474418647,"u":"95","run":"77.88","mem":"68.08","data":"Loading destination init file `\/home\/midweek\/public_html\/wp-content\/plugins\/backupbuddy\/destinations\/live\/init.php`."}
+{"event":"details","time":1474418647,"u":"95","run":"77.88","mem":"68.08","data":"Destination init loaded."}
+{"event":"details","time":1474418647,"u":"95","run":"77.88","mem":"68.08","data":"Initialized `live` destination."}
+{"event":"details","time":1474418647,"u":"95","run":"77.89","mem":"68.08","data":"Applying destination-specific defaults."}
+{"event":"details","time":1474418647,"u":"95","run":"77.89","mem":"68.09","data":"Applying global destination defaults."}
+{"event":"details","time":1474418647,"u":"95","run":"77.89","mem":"68.09","data":"Calling destination-specific send method."}
+{"event":"details","time":1474418647,"u":"95","run":"77.89","mem":"68.10","data":"Starting S32 send()."}
+{"event":"details","time":1474418647,"u":"95","run":"77.89","mem":"68.12","data":"Using bundled cacert.pem file based on destination settings."}
+{"event":"details","time":1474418647,"u":"96","run":"77.90","mem":"68.94","data":"Guzzle client cainfo: `\/home\/midweek\/public_html\/wp-content\/plugins\/backupbuddy\/destinations\/_s3lib2\/Guzzle\/Http\/Resources\/cacert.pem`. capath: `n\/a`."}
+{"event":"details","time":1474418647,"u":"96","run":"77.90","mem":"68.96","data":"File size of `1001 Bytes`."}
+{"event":"details","time":1474418647,"u":"96","run":"77.90","mem":"68.96","data":"Initiating multipart transfer."}
+{"event":"details","time":1474418648,"u":"19","run":"78.12","mem":"68.97","data":"Initiated multipart upload with ID `.wq9t_Uy84b5obxQJRsip_8OEswfVR1zfwY_UQ3pNjTbfwiT38Wrl9YoSYK7s8duiubTfAV8b1LvIZrjbvBpF6JSQjNCdz0Kqx.HS.mUTyXIvYo2YUy8MynGfzXy1wTpOn2O3WmWTemxzkMaxpfmdQ--`."}
+{"event":"details","time":1474418648,"u":"19","run":"78.12","mem":"68.98","data":"Multipart initiated; passing over to send first chunk this run. Burst size: `10 MB`."}
+{"event":"details","time":1474418648,"u":"19","run":"78.13","mem":"68.97","data":"Max time not set in settings so detecting server max PHP runtime."}
+{"event":"details","time":1474418648,"u":"19","run":"78.13","mem":"68.97","data":"Using max runtime: `84`."}
+{"event":"details","time":1474418648,"u":"19","run":"78.13","mem":"68.98","data":"About to read in part contents of part `1` of `1` parts of file `\/home\/midweek\/public_html\/wp-content\/plugins\/comet-cache\/src\/includes\/traits\/Shared\/BlogUtils.php` to remote location `etuaex4u407w9159\/8ab92a213bd0e7b0217449f2f8273e47d74e9da6\/wp-content\/plugins\/comet-cache\/src\/includes\/traits\/Shared\/BlogUtils.php` with multipart ID `.wq9t_Uy84b5obxQJRsip_8OEswfVR1zfwY_UQ3pNjTbfwiT38Wrl9YoSYK7s8duiubTfAV8b1LvIZrjbvBpF6JSQjNCdz0Kqx.HS.mUTyXIvYo2YUy8MynGfzXy1wTpOn2O3WmWTemxzkMaxpfmdQ--`."}
+{"event":"details","time":1474418648,"u":"19","run":"78.13","mem":"68.99","data":"Beginning upload."}

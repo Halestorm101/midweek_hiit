@@ -1,0 +1,17 @@
+{"event":"details","time":1487062851,"u":"93","run":"8.23","mem":"61.27","data":"Verifying comment in zip archive."}
+{"event":"details","time":1487062851,"u":"98","run":"8.28","mem":"61.28","data":"exec (unzip) retrieved comment in file \/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-www_midweekhiit_com-2017_02_12-10_20pm-full-7k4q2g6z91.zip"}
+{"event":"details","time":1487062851,"u":"98","run":"8.28","mem":"61.28","data":"NOTE: It is normal to see several \"File not found\" messages in the next several log lines."}
+{"event":"details","time":1487062851,"u":"98","run":"8.28","mem":"61.28","data":"Verifying DAT file in zip archive."}
+{"event":"details","time":1487062852,"u":"02","run":"8.32","mem":"61.28","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/7k4q2g6z91\/backupbuddy_dat.php"}
+{"event":"details","time":1487062852,"u":"05","run":"8.35","mem":"61.28","data":"File not found (exec): wp-content\/uploads\/temp_7k4q2g6z91\/backupbuddy_dat.php"}
+{"event":"details","time":1487062852,"u":"08","run":"8.38","mem":"61.28","data":"File not found (exec): backupbuddy_dat.php"}
+{"event":"details","time":1487062852,"u":"08","run":"8.38","mem":"61.28","data":"Verifying database SQL file in zip archive."}
+{"event":"details","time":1487062852,"u":"11","run":"8.41","mem":"61.28","data":"File not found (exec): wp-content\/uploads\/backupbuddy_temp\/7k4q2g6z91\/db_1.sql"}
+{"event":"details","time":1487062852,"u":"13","run":"8.43","mem":"61.28","data":"File not found (exec): db_1.sql"}
+{"event":"details","time":1487062852,"u":"17","run":"8.47","mem":"61.28","data":"File not found (exec): wp-content\/uploads\/temp_7k4q2g6z91\/db.sql"}
+{"event":"details","time":1487062852,"u":"19","run":"8.49","mem":"61.28","data":"File not found (exec): db.sql"}
+{"event":"details","time":1487062852,"u":"19","run":"8.49","mem":"61.28","data":"Verifying WordPress wp-config.php configuration file in zip archive."}
+{"event":"details","time":1487062852,"u":"22","run":"8.51","mem":"61.29","data":"File found (exec): wp-config.php"}
+{"event":"details","time":1487062852,"u":"26","run":"8.56","mem":"61.29","data":"File not found (exec): wp-content\/uploads\/backupbuddy_temp\/7k4q2g6z91\/wp-config.php"}
+{"event":"details","time":1487062852,"u":"26","run":"8.56","mem":"61.28","data":"Retrieving zip scan log."}
+{"event":"details","time":1487062852,"u":"26","run":"8.56","mem":"61.28","data":"Getting status for serial `zipbuddy_test`. Clear: `true`"}

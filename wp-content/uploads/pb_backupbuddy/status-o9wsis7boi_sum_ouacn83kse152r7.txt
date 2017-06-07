@@ -1,0 +1,1046 @@
+{"event":"details","time":1477890626,"u":"12","run":"3.36","mem":"50.63","data":"BackupBuddy v7.2.0.1 using WordPress v4.6.1 on Linux."}
+{"event":"details","time":1477890626,"u":"13","run":"3.37","mem":"50.63","data":"Calculated archive file: `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip`."}
+{"event":"startFunction","time":1477890626,"u":"13","run":"3.37","mem":"50.64","data":"{\"function\":\"pre_backup\",\"title\":\"Getting ready to backup\"}"}
+{"event":"details","time":1477890626,"u":"13","run":"3.37","mem":"50.64","data":"Performing pre-backup procedures."}
+{"event":"message","time":1477890626,"u":"13","run":"3.37","mem":"50.64","data":"Full backup mode."}
+{"event":"details","time":1477890626,"u":"13","run":"3.37","mem":"50.64","data":"Flushing will not be skipped (default)."}
+{"event":"details","time":1477890626,"u":"13","run":"3.37","mem":"50.64","data":"Verifying directories ..."}
+{"event":"details","time":1477890626,"u":"13","run":"3.37","mem":"50.64","data":"Temporary directory invalid. Updating from `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/` to default."}
+{"event":"details","time":1477890626,"u":"13","run":"3.38","mem":"50.64","data":"Directories verified."}
+{"event":"details","time":1477890626,"u":"14","run":"3.38","mem":"50.64","data":"Backup serial generated: `o9wsis7boi`."}
+{"event":"details","time":1477890626,"u":"14","run":"3.38","mem":"50.64","data":"About to load fileoptions data in create mode."}
+{"event":"details","time":1477890626,"u":"14","run":"3.38","mem":"50.64","data":"Fileoptions instance #40."}
+{"event":"details","time":1477890626,"u":"14","run":"3.38","mem":"50.64","data":"Created fileoptions lock file `o9wsis7boi.txt.lock` with ID: 5816d2422452a8.33686520."}
+{"event":"details","time":1477890626,"u":"14","run":"3.38","mem":"50.64","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1477890626,"u":"14","run":"3.39","mem":"50.64","data":"Fileoptions data loaded."}
+{"event":"details","time":1477890626,"u":"14","run":"3.39","mem":"50.64","data":"Updating statistics for last backup start."}
+{"event":"details","time":1477890626,"u":"15","run":"3.39","mem":"50.64","data":"Active WordPress plugins (15): `gravityforms\/gravityforms.php; akismet\/akismet.php; backupbuddy\/backupbuddy.php; comet-cache\/comet-cache.php; events-manager\/events-manager.php; foobox-image-lightbox\/foobox-free.php; foogallery\/foogallery.php; googleanalytics\/googleanalytics.php; ithemes-security-pro\/ithemes-security-pro.php; ithemes-sync\/init.php; shortcodes-ultimate\/shortcodes-ultimate.php; simple-custom-css\/simple-custom-css.php; sticky-menu-or-anything-on-scroll\/sticky-menu-or-anything.php; wordpress-seo\/wp-seo.php; wp-fullcalendar\/wp-fullcalendar.php`."}
+{"event":"startSubFunction","time":1477890626,"u":"15","run":"3.39","mem":"50.64","data":"{\"function\":\"wp_plugins_found\",\"title\":\"Found 15 active WordPress plugins.\"}"}
+{"event":"details","time":1477890626,"u":"15","run":"3.39","mem":"50.65","data":"Initially calculated relative backup storage directory: `\/wp-content\/uploads\/backupbuddy_backups\/."}
+{"event":"details","time":1477890626,"u":"15","run":"3.39","mem":"50.65","data":"Initial directory exclusions (after filter): `\/cgi-bin\/; \/.sucuriquarantine\/; \/wp-content\/uploads\/sucuri\/; \/wp-content\/envato-backups\/; \/wp-content\/uploads\/backwpup; \/wp-content\/backup-db\/; \/wp-snapshots\/; \/wp-content\/ai1wm-backups\/; \/wp-content\/plugins\/wordfence\/tmp\/; \/error_log; \/wp-content\/uploads\/backupbuddy_backups\/; \/wp-content\/uploads\/pb_backupbuddy\/; \/importbuddy\/; \/importbuddy.php`."}
+{"event":"startSubFunction","time":1477890626,"u":"15","run":"3.39","mem":"50.65","data":"{\"function\":\"file_excludes\",\"title\":\"Found 14 file or directory exclusions.\"}"}
+{"event":"details","time":1477890626,"u":"15","run":"3.39","mem":"50.65","data":"Temp directory: `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/`."}
+{"event":"details","time":1477890626,"u":"15","run":"3.39","mem":"50.65","data":"Backup root: `\/home\/midweek\/public_html\/`."}
+{"event":"details","time":1477890626,"u":"15","run":"3.39","mem":"50.65","data":"wp-config.php found in normal location."}
+{"event":"details","time":1477890626,"u":"15","run":"3.39","mem":"50.65","data":"Calculating mysql database tables to backup."}
+{"event":"details","time":1477890626,"u":"15","run":"3.39","mem":"50.65","data":"Base database dump mode (before inclusions\/exclusions): `prefix`."}
+{"event":"details","time":1477890626,"u":"15","run":"3.39","mem":"50.65","data":"Determining database tables with prefix `mdwekwps_`."}
+{"event":"startAction","time":1477890626,"u":"15","run":"3.39","mem":"50.65","data":"schemaTables"}
+{"event":"finishAction","time":1477890626,"u":"17","run":"3.41","mem":"50.67","data":"schemaTables"}
+{"event":"details","time":1477890626,"u":"17","run":"3.41","mem":"50.66","data":"Base database tables based on settings (30 tables): `mdwekwps_commentmeta,mdwekwps_comments,mdwekwps_em_bookings,mdwekwps_em_events,mdwekwps_em_locations,mdwekwps_em_meta,mdwekwps_em_tickets,mdwekwps_em_tickets_bookings,mdwekwps_itsec_lockouts,mdwekwps_itsec_log,mdwekwps_itsec_temp,mdwekwps_links,mdwekwps_options,mdwekwps_postmeta,mdwekwps_posts,mdwekwps_rg_form,mdwekwps_rg_form_meta,mdwekwps_rg_form_view,mdwekwps_rg_incomplete_submissions,mdwekwps_rg_lead,mdwekwps_rg_lead_detail,mdwekwps_rg_lead_detail_long,mdwekwps_rg_lead_meta,mdwekwps_rg_lead_notes,mdwekwps_term_relationships,mdwekwps_term_taxonomy,mdwekwps_termmeta,mdwekwps_terms,mdwekwps_usermeta,mdwekwps_users`"}
+{"event":"details","time":1477890626,"u":"17","run":"3.41","mem":"50.66","data":"Database tables after addition (30 tables): `mdwekwps_commentmeta,mdwekwps_comments,mdwekwps_em_bookings,mdwekwps_em_events,mdwekwps_em_locations,mdwekwps_em_meta,mdwekwps_em_tickets,mdwekwps_em_tickets_bookings,mdwekwps_itsec_lockouts,mdwekwps_itsec_log,mdwekwps_itsec_temp,mdwekwps_links,mdwekwps_options,mdwekwps_postmeta,mdwekwps_posts,mdwekwps_rg_form,mdwekwps_rg_form_meta,mdwekwps_rg_form_view,mdwekwps_rg_incomplete_submissions,mdwekwps_rg_lead,mdwekwps_rg_lead_detail,mdwekwps_rg_lead_detail_long,mdwekwps_rg_lead_meta,mdwekwps_rg_lead_notes,mdwekwps_term_relationships,mdwekwps_term_taxonomy,mdwekwps_termmeta,mdwekwps_terms,mdwekwps_usermeta,mdwekwps_users`"}
+{"event":"details","time":1477890626,"u":"17","run":"3.41","mem":"50.66","data":"Database tables after exclusion (30 tables): `mdwekwps_commentmeta,mdwekwps_comments,mdwekwps_em_bookings,mdwekwps_em_events,mdwekwps_em_locations,mdwekwps_em_meta,mdwekwps_em_tickets,mdwekwps_em_tickets_bookings,mdwekwps_itsec_lockouts,mdwekwps_itsec_log,mdwekwps_itsec_temp,mdwekwps_links,mdwekwps_options,mdwekwps_postmeta,mdwekwps_posts,mdwekwps_rg_form,mdwekwps_rg_form_meta,mdwekwps_rg_form_view,mdwekwps_rg_incomplete_submissions,mdwekwps_rg_lead,mdwekwps_rg_lead_detail,mdwekwps_rg_lead_detail_long,mdwekwps_rg_lead_meta,mdwekwps_rg_lead_notes,mdwekwps_term_relationships,mdwekwps_term_taxonomy,mdwekwps_termmeta,mdwekwps_terms,mdwekwps_usermeta,mdwekwps_users`"}
+{"event":"startSubFunction","time":1477890626,"u":"17","run":"3.41","mem":"50.66","data":"{\"function\":\"calculate_tables\",\"title\":\"Found 30 tables to backup based on settings.\",\"more\":\"Tables: mdwekwps_commentmeta, mdwekwps_comments, mdwekwps_em_bookings, mdwekwps_em_events, mdwekwps_em_locations, mdwekwps_em_meta, mdwekwps_em_tickets, mdwekwps_em_tickets_bookings, mdwekwps_itsec_lockouts, mdwekwps_itsec_log, mdwekwps_itsec_temp, mdwekwps_links, mdwekwps_options, mdwekwps_postmeta, mdwekwps_posts, mdwekwps_rg_form, mdwekwps_rg_form_meta, mdwekwps_rg_form_view, mdwekwps_rg_incomplete_submissions, mdwekwps_rg_lead, mdwekwps_rg_lead_detail, mdwekwps_rg_lead_detail_long, mdwekwps_rg_lead_meta, mdwekwps_rg_lead_notes, mdwekwps_term_relationships, mdwekwps_term_taxonomy, mdwekwps_termmeta, mdwekwps_terms, mdwekwps_usermeta, mdwekwps_users\"}"}
+{"event":"details","time":1477890626,"u":"31","run":"3.55","mem":"50.76","data":"Total calculated database size: `4.25 MB`."}
+{"event":"details","time":1477890626,"u":"31","run":"3.55","mem":"50.76","data":"Breaking out tables ENABLED based on settings. Tables to be broken out into individual steps: `mdwekwps_posts, mdwekwps_postmeta`."}
+{"event":"details","time":1477890626,"u":"31","run":"3.55","mem":"50.77","data":"Integrity check will be performed based on settings for this profile."}
+{"event":"details","time":1477890626,"u":"31","run":"3.55","mem":"50.78","data":"Fileoptions `o9wsis7boi.txt` saved. 7912 bytes written."}
+{"event":"details","time":1477890626,"u":"32","run":"3.56","mem":"50.78","data":"Creating DAT (data) file snapshotting site & backup information."}
+{"event":"details","time":1477890626,"u":"32","run":"3.56","mem":"50.78","data":"wp-config.php found in normal location."}
+{"event":"startSubFunction","time":1477890626,"u":"35","run":"3.59","mem":"50.68","data":"{\"function\":\"post_count\",\"title\":\"Found 1 posts, 13 pages, and 0 comments.\"}"}
+{"event":"startSubFunction","time":1477890626,"u":"35","run":"3.59","mem":"50.68","data":"{\"function\":\"post_count\",\"title\":\"Found 2 user accounts.\"}"}
+{"event":"details","time":1477890626,"u":"35","run":"3.59","mem":"50.69","data":"DAT file contents (sans database user\/pass): Array; (;     [backupbuddy_version] => 7.2.0.1;     [wordpress_version] => 4.6.1;     [backup_time] => 1477890626;     [backup_type] => full;     [profile] => Array;         (;             [type] => full;             [title] => Complete Backup;             [skip_database_dump] => 0;             [mysqldump_additional_includes] => ;             [mysqldump_additional_excludes] => ;             [backup_nonwp_tables] => 0;             [excludes] => \/cgi-bin\/;             [integrity_check] => 1;             [profile_globaltables] => 1;             [profile_globalexcludes] => 1;             [backup_mode] => 2;         ); ;     [default_profile] => Array;         (;             [type] => defaults;             [title] => Global Defaults;             [skip_database_dump] => 0;             [mysqldump_additional_includes] => ;             [mysqldump_additional_excludes] => ;             [backup_nonwp_tables] => 0;             [excludes] => \/cgi-bin\/;             [integrity_check] => 1;             [profile_globaltables] => 1;             [profile_globalexcludes] => 1;             [backup_mode] => -1;         ); ;     [serial] => o9wsis7boi;     [trigger] => scheduled;     [wp-config_in_parent] => ;     [deployment_direction] => ;     [abspath] => \/home\/midweek\/public_html\/;     [siteurl] => http:\/\/www.midweekhiit.com;     [homeurl] => http:\/\/www.midweekhiit.com;     [blogname] => Midweek HIIT;     [blogdescription] => ;     [active_plugins] => gravityforms\/gravityforms.php, akismet\/akismet.php, backupbuddy\/backupbuddy.php, comet-cache\/comet-cache.php, events-manager\/events-manager.php, foobox-image-lightbox\/foobox-free.php, foogallery\/foogallery.php, googleanalytics\/googleanalytics.php, ithemes-security-pro\/ithemes-security-pro.php, ithemes-sync\/init.php, shortcodes-ultimate\/shortcodes-ultimate.php, simple-custom-css\/simple-custom-css.php, sticky-menu-or-anything-on-scroll\/sticky-menu-or-anything.php, wordpress-seo\/wp-seo.php, wp-fullcalendar\/wp-fullcalendar.php;     [posts] => 1;     [pages] => 13;     [comments] => 0;     [users] => 2;     [wp_content_url] => http:\/\/www.midweekhiit.com\/wp-content;     [wp_content_dir] => \/home\/midweek\/public_html\/wp-content;     [db_charset] => utf8mb4;     [db_collate] => utf8mb4_unicode_ci;     [db_prefix] => mdwekwps_;     [db_server] => localhost;     [db_name] => midweek_wpsp;     [db_user] => ;     [db_password] => ;     [db_exclusions] => ;     [db_inclusions] => ;     [db_version] => 5.5.51;     [breakout_tables] => Array;         (;             [0] => mdwekwps_posts;             [1] => mdwekwps_postmeta;         ); ;     [tables_sizes] => Array;         (;             [mdwekwps_commentmeta] => 4096;             [mdwekwps_comments] => 1024;             [mdwekwps_em_bookings] => 1024;             [mdwekwps_em_events] => 31024;             [mdwekwps_em_locations] => 16980;             [mdwekwps_em_meta] => 4096;             [mdwekwps_em_tickets] => 1024;             [mdwekwps_em_tickets_bookings] => 1024;             [mdwekwps_itsec_lockouts] => 9572;             [mdwekwps_itsec_log] => 1937504;             [mdwekwps_itsec_temp] => 11508;             [mdwekwps_links] => 1024;             [mdwekwps_options] => 1993184;             [mdwekwps_postmeta] => 188972;             [mdwekwps_posts] => 142692;             [mdwekwps_rg_form] => 2076;             [mdwekwps_rg_form_meta] => 5832;             [mdwekwps_rg_form_view] => 9657;             [mdwekwps_rg_incomplete_submissions] => 1024;             [mdwekwps_rg_lead] => 6072;             [mdwekwps_rg_lead_detail] => 14976;             [mdwekwps_rg_lead_detail_long] => 1024;             [mdwekwps_rg_lead_meta] => 4096;             [mdwekwps_rg_lead_notes] => 1024;             [mdwekwps_term_relationships] => 3219;             [mdwekwps_term_taxonomy] => 4176;             [mdwekwps_termmeta] => 4096;             [mdwekwps_terms] => 13376;             [mdwekwps_usermeta] => 36692;             [mdwekwps_users] => 8416;         ); ;     [force_single_db_file] => ;     [skip_database_dump] => 0;     [is_multisite] => ;     [is_multisite_export] => ;     [domain] => ;     [path] => ;     [upload_url] => ;     [upload_url_rewrite] => ; ); "}
+{"event":"details","time":1477890626,"u":"35","run":"3.59","mem":"50.68","data":"Finished creating DAT (data) file."}
+{"event":"details","time":1477890626,"u":"35","run":"3.59","mem":"50.67","data":"Generating ImportBuddy tool to include in backup archive: `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/importbuddy.php`."}
+{"event":"startAction","time":1477890626,"u":"35","run":"3.59","mem":"50.67","data":"importbuddyCreation"}
+{"event":"details","time":1477890626,"u":"35","run":"3.59","mem":"50.67","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1477890626,"u":"35","run":"3.59","mem":"50.67","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1477890626,"u":"35","run":"3.59","mem":"50.67","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1477890626,"u":"35","run":"3.59","mem":"50.67","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1477890626,"u":"35","run":"3.59","mem":"50.67","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"details","time":1477890626,"u":"35","run":"3.59","mem":"50.67","data":"Loading importbuddy core file into memory."}
+{"event":"details","time":1477890626,"u":"45","run":"3.69","mem":"50.69","data":"Loading each file into memory for writing master importbuddy file."}
+{"event":"details","time":1477890626,"u":"81","run":"4.05","mem":"53.52","data":"Writing importbuddy master file to disk."}
+{"event":"finishAction","time":1477890626,"u":"82","run":"4.06","mem":"50.67","data":"importbuddyCreation"}
+{"event":"details","time":1477890626,"u":"82","run":"4.06","mem":"50.67","data":"ImportBuddy generation complete."}
+{"event":"details","time":1477890626,"u":"82","run":"4.07","mem":"50.67","data":"Deleting malware transient."}
+{"event":"details","time":1477890626,"u":"82","run":"4.07","mem":"50.69","data":"Fileoptions `o9wsis7boi.txt` saved. 8076 bytes written."}
+{"event":"details","time":1477890626,"u":"83","run":"4.07","mem":"50.67","data":"Finished pre-backup procedures."}
+{"event":"milestone","time":1477890626,"u":"83","run":"4.07","mem":"50.67","data":"finish_settings"}
+{"event":"finishFunction","time":1477890626,"u":"83","run":"4.07","mem":"50.67","data":"{\"function\":\"pre_backup\"}"}
+{"event":"message","time":1477890626,"u":"83","run":"4.07","mem":"50.67","data":"Running in modern backup mode based on settings. Mode value: `2`. Trigger: `scheduled`."}
+{"event":"warnings","time":1477890626,"u":"83","run":"4.07","mem":"50.66","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1477890626,"u":"83","run":"4.07","mem":"50.66","data":"Scheduling Cron for `o9wsis7boi`."}
+{"event":"details","time":1477890626,"u":"83","run":"4.07","mem":"50.68","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1477890626,"u":"83","run":"4.07","mem":"50.69","data":"Pinging mysql."}
+{"event":"details","time":1477890626,"u":"83","run":"4.07","mem":"50.69","data":"Database Server connection status verified."}
+{"event":"details","time":1477890626,"u":"83","run":"4.07","mem":"50.69","data":"Scheduling next step to run at `1477890471` (localized time: Oct 31, 2016 5:07:51 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `o9wsis7boi`."}
+{"event":"details","time":1477890626,"u":"83","run":"4.08","mem":"50.69","data":"Next step scheduled."}
+{"event":"startAction","time":1477890626,"u":"83","run":"4.08","mem":"50.69","data":"cronPass"}
+{"event":"cronParams","time":1477890626,"u":"83","run":"4.08","mem":"50.69","data":"eyJ0aW1lIjoxNDc3ODkwNDcxLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIm85d3Npczdib2kiXX0="}
+{"event":"details","time":1477890626,"u":"84","run":"4.08","mem":"50.69","data":"Not calling spawn_cron()."}
+{"event":"details","time":1477890626,"u":"84","run":"4.08","mem":"50.69","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1477890626,"u":"84","run":"4.08","mem":"50.69","data":"Finished cron_process_scheduled_backup."}
+{"event":"details","time":1477894927,"u":"34","run":"14.03","mem":"48.63","data":"Rescheduled cron for method `process_backup` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => o9wsis7boi\n)\n`. Reschedule count: `1`. Previous method: `housekeeping`."}
+{"event":"details","time":1477899812,"u":"45","run":"0.65","mem":"48.47","data":"Rescheduled cron for method `process_backup` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => o9wsis7boi\n)\n`. Reschedule count: `2`. Previous method: `live`."}
+{"event":"details","time":1477906572,"u":"53","run":"0.89","mem":"47.70","data":"--- New PHP process."}
+{"event":"details","time":1477906572,"u":"60","run":"0.95","mem":"47.70","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1477906572,"u":"60","run":"0.95","mem":"47.70","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1477906572,"u":"60","run":"0.95","mem":"47.70","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1477906572,"u":"60","run":"0.95","mem":"47.70","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1477906572,"u":"60","run":"0.96","mem":"47.70","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1477906572,"u":"60","run":"0.96","mem":"47.70","data":"Running process for serial `o9wsis7boi`..."}
+{"event":"details","time":1477906572,"u":"67","run":"1.02","mem":"49.37","data":"About to load fileoptions data for serial `o9wsis7boi`."}
+{"event":"details","time":1477906572,"u":"68","run":"1.03","mem":"49.45","data":"Fileoptions instance #39."}
+{"event":"details","time":1477906572,"u":"76","run":"1.11","mem":"49.45","data":"Created fileoptions lock file `o9wsis7boi.txt.lock` with ID: 5817108cba04d7.65422715."}
+{"event":"details","time":1477906572,"u":"79","run":"1.14","mem":"49.49","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1477906572,"u":"79","run":"1.14","mem":"49.49","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1477906572,"u":"79","run":"1.14","mem":"49.49","data":"cronPass"}
+{"event":"details","time":1477906572,"u":"79","run":"1.15","mem":"49.51","data":"Fileoptions `o9wsis7boi.txt` saved. 8116 bytes written."}
+{"event":"details","time":1477906572,"u":"79","run":"1.15","mem":"49.49","data":"Found next step to run: `backup_create_database_dump`."}
+{"event":"details","time":1477906572,"u":"79","run":"1.15","mem":"49.49","data":"Peak memory usage: 49.661 MB"}
+{"event":"details","time":1477906572,"u":"79","run":"1.15","mem":"49.49","data":"-----"}
+{"event":"details","time":1477906572,"u":"79","run":"1.15","mem":"49.49","data":"Starting step function `backup_create_database_dump`. Attempt #1."}
+{"event":"startFunction","time":1477906572,"u":"79","run":"1.15","mem":"49.49","data":"{\"function\":\"backup_create_database_dump\",\"title\":\"Backing up database\"}"}
+{"event":"milestone","time":1477906572,"u":"79","run":"1.15","mem":"49.50","data":"start_database"}
+{"event":"message","time":1477906572,"u":"79","run":"1.15","mem":"49.50","data":"Starting database backup process."}
+{"event":"details","time":1477906572,"u":"83","run":"1.18","mem":"49.73","data":"PHP-based mysqldump (if applicable) max rows per select set to 1000."}
+{"event":"details","time":1477906572,"u":"85","run":"1.20","mem":"49.74","data":"Database host for dumping: `localhost`"}
+{"event":"details","time":1477906572,"u":"85","run":"1.20","mem":"49.74","data":"Loading mysqlbuddy library."}
+{"event":"details","time":1477906572,"u":"85","run":"1.20","mem":"49.74","data":"Mysql server default directories: `\/usr\/bin\/,\/usr\/bin\/mysql\/,\/usr\/local\/bin\/`"}
+{"event":"details","time":1477906572,"u":"85","run":"1.20","mem":"49.74","data":"mysqlbuddy: Force method of `1` passed."}
+{"event":"message","time":1477906572,"u":"85","run":"1.20","mem":"49.74","data":"mysqlbuddy: Settings overriding automatic detection of available database dump methods. Using forced override methods: `php`."}
+{"event":"message","time":1477906572,"u":"85","run":"1.20","mem":"49.74","data":"mysqlbuddy: Detected database dump methods: `php`."}
+{"event":"details","time":1477906572,"u":"85","run":"1.20","mem":"49.74","data":"If applicable, breaking up with max execution time `30` seconds."}
+{"event":"details","time":1477906572,"u":"85","run":"1.21","mem":"49.74","data":"This server's mysql version: `5.5.51`."}
+{"event":"milestone","time":1477906572,"u":"85","run":"1.21","mem":"49.74","data":"start_database"}
+{"event":"message","time":1477906572,"u":"85","run":"1.21","mem":"49.74","data":"Starting database dump procedure."}
+{"event":"details","time":1477906572,"u":"85","run":"1.21","mem":"49.74","data":"mysqlbuddy: Output directory: `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/`."}
+{"event":"details","time":1477906572,"u":"85","run":"1.21","mem":"49.74","data":"Table dump count: `28`."}
+{"event":"details","time":1477906572,"u":"86","run":"1.21","mem":"49.74","data":"Preparing to dump using available method(s) by priority. Methods: `php`"}
+{"event":"details","time":1477906572,"u":"86","run":"1.21","mem":"49.74","data":"mysqlbuddy: Attempting dump method `php`."}
+{"event":"details","time":1477906572,"u":"86","run":"1.21","mem":"49.75","data":"Loading DB kicker for use leter in case database goes away."}
+{"event":"details","time":1477906572,"u":"88","run":"1.23","mem":"49.77","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1477906572,"u":"88","run":"1.23","mem":"49.77","data":"Dumping database table `mdwekwps_commentmeta`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906572,"u":"88","run":"1.23","mem":"49.77","data":"mdwekwps_commentmeta"}
+{"event":"details","time":1477906572,"u":"88","run":"1.23","mem":"49.77","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_commentmeta.sql`."}
+{"event":"details","time":1477906572,"u":"88","run":"1.23","mem":"49.77","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906572,"u":"88","run":"1.23","mem":"49.77","data":"mdwekwps_commentmeta.sql"}
+{"event":"details","time":1477906572,"u":"88","run":"1.23","mem":"49.77","data":"Got `0` rows from `mdwekwps_commentmeta` of `1000` max."}
+{"event":"details","time":1477906572,"u":"88","run":"1.23","mem":"49.78","data":"Dumped `0` rows total from `mdwekwps_commentmeta`. No rows remain."}
+{"event":"details","time":1477906572,"u":"88","run":"1.23","mem":"49.79","data":"Pinging mysql."}
+{"event":"details","time":1477906572,"u":"88","run":"1.23","mem":"49.79","data":"Database Server connection status verified."}
+{"event":"details","time":1477906572,"u":"88","run":"1.23","mem":"49.79","data":"Finished dumping database table `mdwekwps_commentmeta`."}
+{"event":"finishTableDump","time":1477906572,"u":"88","run":"1.23","mem":"49.79","data":"mdwekwps_commentmeta"}
+{"event":"details","time":1477906572,"u":"88","run":"1.23","mem":"49.79","data":"Database SQL dump file (mdwekwps_commentmeta.sql) size: 566 Bytes"}
+{"event":"sqlSize","time":1477906572,"u":"88","run":"1.23","mem":"49.79","data":"566"}
+{"event":"details","time":1477906572,"u":"88","run":"1.23","mem":"49.79","data":"About to flush..."}
+{"event":"details","time":1477906572,"u":"88","run":"1.23","mem":"49.79","data":"Dumping database table `mdwekwps_comments`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906572,"u":"88","run":"1.23","mem":"49.79","data":"mdwekwps_comments"}
+{"event":"details","time":1477906572,"u":"88","run":"1.23","mem":"49.79","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_comments.sql`."}
+{"event":"details","time":1477906572,"u":"88","run":"1.24","mem":"49.79","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906572,"u":"88","run":"1.24","mem":"49.79","data":"mdwekwps_comments.sql"}
+{"event":"details","time":1477906572,"u":"88","run":"1.24","mem":"49.78","data":"Got `0` rows from `mdwekwps_comments` of `1000` max."}
+{"event":"details","time":1477906572,"u":"88","run":"1.24","mem":"49.82","data":"Dumped `0` rows total from `mdwekwps_comments`. No rows remain."}
+{"event":"details","time":1477906572,"u":"88","run":"1.24","mem":"49.82","data":"Pinging mysql."}
+{"event":"details","time":1477906572,"u":"88","run":"1.24","mem":"49.82","data":"Database Server connection status verified."}
+{"event":"details","time":1477906572,"u":"88","run":"1.24","mem":"49.82","data":"Finished dumping database table `mdwekwps_comments`."}
+{"event":"finishTableDump","time":1477906572,"u":"88","run":"1.24","mem":"49.82","data":"mdwekwps_comments"}
+{"event":"details","time":1477906572,"u":"88","run":"1.24","mem":"49.82","data":"Database SQL dump file (mdwekwps_comments.sql) size: 2 KB"}
+{"event":"sqlSize","time":1477906572,"u":"88","run":"1.24","mem":"49.82","data":"1550"}
+{"event":"details","time":1477906572,"u":"88","run":"1.24","mem":"49.82","data":"About to flush..."}
+{"event":"details","time":1477906572,"u":"88","run":"1.24","mem":"49.82","data":"Dumping database table `mdwekwps_em_bookings`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906572,"u":"89","run":"1.24","mem":"49.82","data":"mdwekwps_em_bookings"}
+{"event":"details","time":1477906572,"u":"89","run":"1.24","mem":"49.82","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_em_bookings.sql`."}
+{"event":"details","time":1477906572,"u":"89","run":"1.24","mem":"49.82","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906572,"u":"89","run":"1.24","mem":"49.82","data":"mdwekwps_em_bookings.sql"}
+{"event":"details","time":1477906572,"u":"89","run":"1.24","mem":"49.78","data":"Got `0` rows from `mdwekwps_em_bookings` of `1000` max."}
+{"event":"details","time":1477906572,"u":"89","run":"1.24","mem":"49.81","data":"Dumped `0` rows total from `mdwekwps_em_bookings`. No rows remain."}
+{"event":"details","time":1477906572,"u":"89","run":"1.24","mem":"49.81","data":"Pinging mysql."}
+{"event":"details","time":1477906572,"u":"89","run":"1.24","mem":"49.81","data":"Database Server connection status verified."}
+{"event":"details","time":1477906572,"u":"89","run":"1.24","mem":"49.81","data":"Finished dumping database table `mdwekwps_em_bookings`."}
+{"event":"finishTableDump","time":1477906572,"u":"89","run":"1.24","mem":"49.81","data":"mdwekwps_em_bookings"}
+{"event":"details","time":1477906572,"u":"89","run":"1.24","mem":"49.81","data":"Database SQL dump file (mdwekwps_em_bookings.sql) size: 924 Bytes"}
+{"event":"sqlSize","time":1477906572,"u":"89","run":"1.24","mem":"49.81","data":"924"}
+{"event":"details","time":1477906572,"u":"89","run":"1.24","mem":"49.81","data":"About to flush..."}
+{"event":"details","time":1477906572,"u":"89","run":"1.24","mem":"49.81","data":"Dumping database table `mdwekwps_em_events`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906572,"u":"89","run":"1.24","mem":"49.81","data":"mdwekwps_em_events"}
+{"event":"details","time":1477906572,"u":"89","run":"1.24","mem":"49.81","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_em_events.sql`."}
+{"event":"details","time":1477906572,"u":"89","run":"1.24","mem":"49.81","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906572,"u":"89","run":"1.24","mem":"49.81","data":"mdwekwps_em_events.sql"}
+{"event":"details","time":1477906572,"u":"89","run":"1.25","mem":"50.21","data":"Got `41` rows from `mdwekwps_em_events` of `1000` max."}
+{"event":"details","time":1477906572,"u":"90","run":"1.26","mem":"50.29","data":"Dumped `41` rows total from `mdwekwps_em_events`. No rows remain."}
+{"event":"details","time":1477906572,"u":"90","run":"1.26","mem":"50.29","data":"Pinging mysql."}
+{"event":"details","time":1477906572,"u":"90","run":"1.26","mem":"50.29","data":"Database Server connection status verified."}
+{"event":"details","time":1477906572,"u":"90","run":"1.26","mem":"50.29","data":"Finished dumping database table `mdwekwps_em_events`."}
+{"event":"finishTableDump","time":1477906572,"u":"90","run":"1.26","mem":"50.29","data":"mdwekwps_em_events"}
+{"event":"details","time":1477906572,"u":"90","run":"1.26","mem":"50.29","data":"Database SQL dump file (mdwekwps_em_events.sql) size: 33 KB"}
+{"event":"sqlSize","time":1477906572,"u":"90","run":"1.26","mem":"50.29","data":"33521"}
+{"event":"details","time":1477906572,"u":"90","run":"1.26","mem":"50.29","data":"About to flush..."}
+{"event":"details","time":1477906572,"u":"90","run":"1.26","mem":"50.29","data":"Dumping database table `mdwekwps_em_locations`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906572,"u":"91","run":"1.26","mem":"50.29","data":"mdwekwps_em_locations"}
+{"event":"details","time":1477906572,"u":"91","run":"1.26","mem":"50.29","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_em_locations.sql`."}
+{"event":"details","time":1477906572,"u":"91","run":"1.26","mem":"50.29","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906572,"u":"91","run":"1.26","mem":"50.29","data":"mdwekwps_em_locations.sql"}
+{"event":"details","time":1477906572,"u":"91","run":"1.26","mem":"49.83","data":"Got `6` rows from `mdwekwps_em_locations` of `1000` max."}
+{"event":"details","time":1477906572,"u":"91","run":"1.27","mem":"49.86","data":"Dumped `6` rows total from `mdwekwps_em_locations`. No rows remain."}
+{"event":"details","time":1477906572,"u":"91","run":"1.27","mem":"49.86","data":"Pinging mysql."}
+{"event":"details","time":1477906572,"u":"91","run":"1.27","mem":"49.86","data":"Database Server connection status verified."}
+{"event":"details","time":1477906572,"u":"91","run":"1.27","mem":"49.86","data":"Finished dumping database table `mdwekwps_em_locations`."}
+{"event":"finishTableDump","time":1477906572,"u":"91","run":"1.27","mem":"49.86","data":"mdwekwps_em_locations"}
+{"event":"details","time":1477906572,"u":"92","run":"1.27","mem":"49.86","data":"Database SQL dump file (mdwekwps_em_locations.sql) size: 3 KB"}
+{"event":"sqlSize","time":1477906572,"u":"92","run":"1.27","mem":"49.86","data":"2649"}
+{"event":"details","time":1477906572,"u":"92","run":"1.27","mem":"49.86","data":"About to flush..."}
+{"event":"details","time":1477906572,"u":"92","run":"1.27","mem":"49.86","data":"Dumping database table `mdwekwps_em_meta`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906572,"u":"92","run":"1.27","mem":"49.86","data":"mdwekwps_em_meta"}
+{"event":"details","time":1477906572,"u":"92","run":"1.27","mem":"49.86","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_em_meta.sql`."}
+{"event":"details","time":1477906572,"u":"92","run":"1.27","mem":"49.86","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906572,"u":"92","run":"1.27","mem":"49.86","data":"mdwekwps_em_meta.sql"}
+{"event":"details","time":1477906572,"u":"92","run":"1.27","mem":"49.79","data":"Got `0` rows from `mdwekwps_em_meta` of `1000` max."}
+{"event":"details","time":1477906572,"u":"92","run":"1.27","mem":"49.80","data":"Dumped `0` rows total from `mdwekwps_em_meta`. No rows remain."}
+{"event":"details","time":1477906572,"u":"92","run":"1.27","mem":"49.80","data":"Pinging mysql."}
+{"event":"details","time":1477906572,"u":"92","run":"1.27","mem":"49.80","data":"Database Server connection status verified."}
+{"event":"details","time":1477906572,"u":"92","run":"1.27","mem":"49.80","data":"Finished dumping database table `mdwekwps_em_meta`."}
+{"event":"finishTableDump","time":1477906572,"u":"92","run":"1.27","mem":"49.80","data":"mdwekwps_em_meta"}
+{"event":"details","time":1477906572,"u":"92","run":"1.27","mem":"49.80","data":"Database SQL dump file (mdwekwps_em_meta.sql) size: 581 Bytes"}
+{"event":"sqlSize","time":1477906572,"u":"92","run":"1.27","mem":"49.80","data":"581"}
+{"event":"details","time":1477906572,"u":"92","run":"1.27","mem":"49.80","data":"About to flush..."}
+{"event":"details","time":1477906572,"u":"92","run":"1.27","mem":"49.80","data":"Dumping database table `mdwekwps_em_tickets`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906572,"u":"92","run":"1.27","mem":"49.80","data":"mdwekwps_em_tickets"}
+{"event":"details","time":1477906572,"u":"92","run":"1.27","mem":"49.80","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_em_tickets.sql`."}
+{"event":"details","time":1477906572,"u":"92","run":"1.27","mem":"49.80","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906572,"u":"92","run":"1.28","mem":"49.80","data":"mdwekwps_em_tickets.sql"}
+{"event":"details","time":1477906572,"u":"92","run":"1.28","mem":"49.79","data":"Got `0` rows from `mdwekwps_em_tickets` of `1000` max."}
+{"event":"details","time":1477906572,"u":"92","run":"1.28","mem":"49.82","data":"Dumped `0` rows total from `mdwekwps_em_tickets`. No rows remain."}
+{"event":"details","time":1477906572,"u":"92","run":"1.28","mem":"49.82","data":"Pinging mysql."}
+{"event":"details","time":1477906572,"u":"92","run":"1.28","mem":"49.82","data":"Database Server connection status verified."}
+{"event":"details","time":1477906572,"u":"92","run":"1.28","mem":"49.82","data":"Finished dumping database table `mdwekwps_em_tickets`."}
+{"event":"finishTableDump","time":1477906572,"u":"92","run":"1.28","mem":"49.82","data":"mdwekwps_em_tickets"}
+{"event":"details","time":1477906572,"u":"92","run":"1.28","mem":"49.82","data":"Database SQL dump file (mdwekwps_em_tickets.sql) size: 959 Bytes"}
+{"event":"sqlSize","time":1477906572,"u":"92","run":"1.28","mem":"49.82","data":"959"}
+{"event":"details","time":1477906572,"u":"93","run":"1.28","mem":"49.82","data":"About to flush..."}
+{"event":"details","time":1477906572,"u":"93","run":"1.28","mem":"49.82","data":"Dumping database table `mdwekwps_em_tickets_bookings`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906572,"u":"93","run":"1.28","mem":"49.82","data":"mdwekwps_em_tickets_bookings"}
+{"event":"details","time":1477906572,"u":"93","run":"1.28","mem":"49.82","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_em_tickets_bookings.sql`."}
+{"event":"details","time":1477906572,"u":"93","run":"1.28","mem":"49.82","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906572,"u":"93","run":"1.28","mem":"49.82","data":"mdwekwps_em_tickets_bookings.sql"}
+{"event":"details","time":1477906572,"u":"93","run":"1.28","mem":"49.79","data":"Got `0` rows from `mdwekwps_em_tickets_bookings` of `1000` max."}
+{"event":"details","time":1477906572,"u":"93","run":"1.28","mem":"49.80","data":"Dumped `0` rows total from `mdwekwps_em_tickets_bookings`. No rows remain."}
+{"event":"details","time":1477906572,"u":"93","run":"1.28","mem":"49.80","data":"Pinging mysql."}
+{"event":"details","time":1477906572,"u":"93","run":"1.28","mem":"49.80","data":"Database Server connection status verified."}
+{"event":"details","time":1477906572,"u":"93","run":"1.28","mem":"49.80","data":"Finished dumping database table `mdwekwps_em_tickets_bookings`."}
+{"event":"finishTableDump","time":1477906572,"u":"93","run":"1.28","mem":"49.80","data":"mdwekwps_em_tickets_bookings"}
+{"event":"details","time":1477906572,"u":"93","run":"1.28","mem":"49.80","data":"Database SQL dump file (mdwekwps_em_tickets_bookings.sql) size: 594 Bytes"}
+{"event":"sqlSize","time":1477906572,"u":"93","run":"1.28","mem":"49.80","data":"594"}
+{"event":"details","time":1477906572,"u":"93","run":"1.28","mem":"49.80","data":"About to flush..."}
+{"event":"details","time":1477906572,"u":"93","run":"1.29","mem":"49.80","data":"Dumping database table `mdwekwps_itsec_lockouts`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906572,"u":"93","run":"1.29","mem":"49.80","data":"mdwekwps_itsec_lockouts"}
+{"event":"details","time":1477906572,"u":"93","run":"1.29","mem":"49.80","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_itsec_lockouts.sql`."}
+{"event":"details","time":1477906572,"u":"93","run":"1.29","mem":"49.80","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906572,"u":"93","run":"1.29","mem":"49.80","data":"mdwekwps_itsec_lockouts.sql"}
+{"event":"details","time":1477906572,"u":"93","run":"1.29","mem":"49.79","data":"Got `1` rows from `mdwekwps_itsec_lockouts` of `1000` max."}
+{"event":"details","time":1477906572,"u":"93","run":"1.29","mem":"49.81","data":"Dumped `1` rows total from `mdwekwps_itsec_lockouts`. No rows remain."}
+{"event":"details","time":1477906572,"u":"93","run":"1.29","mem":"49.81","data":"Pinging mysql."}
+{"event":"details","time":1477906572,"u":"93","run":"1.29","mem":"49.81","data":"Database Server connection status verified."}
+{"event":"details","time":1477906572,"u":"94","run":"1.29","mem":"49.81","data":"Finished dumping database table `mdwekwps_itsec_lockouts`."}
+{"event":"finishTableDump","time":1477906572,"u":"94","run":"1.29","mem":"49.81","data":"mdwekwps_itsec_lockouts"}
+{"event":"details","time":1477906572,"u":"94","run":"1.29","mem":"49.81","data":"Database SQL dump file (mdwekwps_itsec_lockouts.sql) size: 1 KB"}
+{"event":"sqlSize","time":1477906572,"u":"94","run":"1.29","mem":"49.81","data":"1207"}
+{"event":"details","time":1477906572,"u":"94","run":"1.29","mem":"49.81","data":"About to flush..."}
+{"event":"details","time":1477906572,"u":"94","run":"1.29","mem":"49.81","data":"Dumping database table `mdwekwps_itsec_log`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906572,"u":"94","run":"1.29","mem":"49.81","data":"mdwekwps_itsec_log"}
+{"event":"details","time":1477906572,"u":"94","run":"1.29","mem":"49.81","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_itsec_log.sql`."}
+{"event":"details","time":1477906572,"u":"94","run":"1.29","mem":"49.81","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906572,"u":"94","run":"1.29","mem":"49.81","data":"mdwekwps_itsec_log.sql"}
+{"event":"details","time":1477906573,"u":"53","run":"1.88","mem":"50.74","data":"Got `139` rows from `mdwekwps_itsec_log` of `1000` max."}
+{"event":"details","time":1477906573,"u":"56","run":"1.92","mem":"50.76","data":"Dumped `139` rows total from `mdwekwps_itsec_log`. No rows remain."}
+{"event":"details","time":1477906573,"u":"56","run":"1.92","mem":"50.76","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"57","run":"1.92","mem":"50.76","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"57","run":"1.92","mem":"50.76","data":"Finished dumping database table `mdwekwps_itsec_log`."}
+{"event":"finishTableDump","time":1477906573,"u":"57","run":"1.93","mem":"50.76","data":"mdwekwps_itsec_log"}
+{"event":"details","time":1477906573,"u":"57","run":"1.93","mem":"50.76","data":"Database SQL dump file (mdwekwps_itsec_log.sql) size: 468 KB"}
+{"event":"sqlSize","time":1477906573,"u":"57","run":"1.93","mem":"50.76","data":"479231"}
+{"event":"details","time":1477906573,"u":"57","run":"1.93","mem":"50.76","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"57","run":"1.93","mem":"50.76","data":"Dumping database table `mdwekwps_itsec_temp`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"57","run":"1.93","mem":"50.76","data":"mdwekwps_itsec_temp"}
+{"event":"details","time":1477906573,"u":"57","run":"1.93","mem":"50.76","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_itsec_temp.sql`."}
+{"event":"details","time":1477906573,"u":"57","run":"1.93","mem":"50.76","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"57","run":"1.93","mem":"50.76","data":"mdwekwps_itsec_temp.sql"}
+{"event":"details","time":1477906573,"u":"60","run":"1.95","mem":"49.81","data":"Got `6` rows from `mdwekwps_itsec_temp` of `1000` max."}
+{"event":"details","time":1477906573,"u":"60","run":"1.96","mem":"49.81","data":"Dumped `6` rows total from `mdwekwps_itsec_temp`. No rows remain."}
+{"event":"details","time":1477906573,"u":"60","run":"1.96","mem":"49.81","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"60","run":"1.96","mem":"49.81","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"60","run":"1.96","mem":"49.81","data":"Finished dumping database table `mdwekwps_itsec_temp`."}
+{"event":"finishTableDump","time":1477906573,"u":"60","run":"1.96","mem":"49.81","data":"mdwekwps_itsec_temp"}
+{"event":"details","time":1477906573,"u":"60","run":"1.96","mem":"49.81","data":"Database SQL dump file (mdwekwps_itsec_temp.sql) size: 2 KB"}
+{"event":"sqlSize","time":1477906573,"u":"60","run":"1.96","mem":"49.81","data":"1639"}
+{"event":"details","time":1477906573,"u":"60","run":"1.96","mem":"49.81","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"60","run":"1.96","mem":"49.81","data":"Dumping database table `mdwekwps_links`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"60","run":"1.96","mem":"49.81","data":"mdwekwps_links"}
+{"event":"details","time":1477906573,"u":"60","run":"1.96","mem":"49.81","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_links.sql`."}
+{"event":"details","time":1477906573,"u":"60","run":"1.96","mem":"49.81","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"61","run":"1.96","mem":"49.81","data":"mdwekwps_links.sql"}
+{"event":"details","time":1477906573,"u":"61","run":"1.96","mem":"49.78","data":"Got `0` rows from `mdwekwps_links` of `1000` max."}
+{"event":"details","time":1477906573,"u":"61","run":"1.96","mem":"49.82","data":"Dumped `0` rows total from `mdwekwps_links`. No rows remain."}
+{"event":"details","time":1477906573,"u":"61","run":"1.96","mem":"49.82","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"61","run":"1.96","mem":"49.82","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"61","run":"1.96","mem":"49.81","data":"Finished dumping database table `mdwekwps_links`."}
+{"event":"finishTableDump","time":1477906573,"u":"61","run":"1.96","mem":"49.81","data":"mdwekwps_links"}
+{"event":"details","time":1477906573,"u":"61","run":"1.97","mem":"49.81","data":"Database SQL dump file (mdwekwps_links.sql) size: 1 KB"}
+{"event":"sqlSize","time":1477906573,"u":"61","run":"1.97","mem":"49.81","data":"1156"}
+{"event":"details","time":1477906573,"u":"62","run":"1.97","mem":"49.81","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"62","run":"1.97","mem":"49.81","data":"Dumping database table `mdwekwps_options`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"62","run":"1.97","mem":"49.81","data":"mdwekwps_options"}
+{"event":"details","time":1477906573,"u":"62","run":"1.97","mem":"49.81","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_options.sql`."}
+{"event":"details","time":1477906573,"u":"62","run":"1.97","mem":"49.81","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"62","run":"1.97","mem":"49.81","data":"mdwekwps_options.sql"}
+{"event":"details","time":1477906573,"u":"64","run":"2.00","mem":"52.63","data":"Got `684` rows from `mdwekwps_options` of `1000` max."}
+{"event":"details","time":1477906573,"u":"66","run":"2.01","mem":"52.64","data":"Working... Dumped `500` rows from `mdwekwps_options` so far."}
+{"event":"details","time":1477906573,"u":"69","run":"2.04","mem":"52.64","data":"Dumped `684` rows total from `mdwekwps_options`. No rows remain."}
+{"event":"details","time":1477906573,"u":"69","run":"2.04","mem":"52.64","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"69","run":"2.05","mem":"52.64","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"69","run":"2.05","mem":"52.64","data":"Finished dumping database table `mdwekwps_options`."}
+{"event":"finishTableDump","time":1477906573,"u":"69","run":"2.05","mem":"52.64","data":"mdwekwps_options"}
+{"event":"details","time":1477906573,"u":"69","run":"2.05","mem":"52.64","data":"Database SQL dump file (mdwekwps_options.sql) size: 1.76 MB"}
+{"event":"sqlSize","time":1477906573,"u":"69","run":"2.05","mem":"52.64","data":"1850648"}
+{"event":"details","time":1477906573,"u":"69","run":"2.05","mem":"52.64","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"69","run":"2.05","mem":"52.64","data":"Dumping database table `mdwekwps_rg_form`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"69","run":"2.05","mem":"52.64","data":"mdwekwps_rg_form"}
+{"event":"details","time":1477906573,"u":"69","run":"2.05","mem":"52.64","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_form.sql`."}
+{"event":"details","time":1477906573,"u":"69","run":"2.05","mem":"52.64","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"69","run":"2.05","mem":"52.64","data":"mdwekwps_rg_form.sql"}
+{"event":"details","time":1477906573,"u":"71","run":"2.06","mem":"49.85","data":"Got `1` rows from `mdwekwps_rg_form` of `1000` max."}
+{"event":"details","time":1477906573,"u":"71","run":"2.06","mem":"49.86","data":"Dumped `1` rows total from `mdwekwps_rg_form`. No rows remain."}
+{"event":"details","time":1477906573,"u":"71","run":"2.06","mem":"49.86","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"71","run":"2.06","mem":"49.86","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"71","run":"2.06","mem":"49.86","data":"Finished dumping database table `mdwekwps_rg_form`."}
+{"event":"finishTableDump","time":1477906573,"u":"71","run":"2.06","mem":"49.86","data":"mdwekwps_rg_form"}
+{"event":"details","time":1477906573,"u":"71","run":"2.06","mem":"49.86","data":"Database SQL dump file (mdwekwps_rg_form.sql) size: 580 Bytes"}
+{"event":"sqlSize","time":1477906573,"u":"71","run":"2.06","mem":"49.86","data":"580"}
+{"event":"details","time":1477906573,"u":"71","run":"2.06","mem":"49.86","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"71","run":"2.06","mem":"49.86","data":"Dumping database table `mdwekwps_rg_form_meta`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"71","run":"2.06","mem":"49.86","data":"mdwekwps_rg_form_meta"}
+{"event":"details","time":1477906573,"u":"71","run":"2.06","mem":"49.86","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_form_meta.sql`."}
+{"event":"details","time":1477906573,"u":"71","run":"2.06","mem":"49.86","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"71","run":"2.06","mem":"49.86","data":"mdwekwps_rg_form_meta.sql"}
+{"event":"details","time":1477906573,"u":"71","run":"2.07","mem":"49.85","data":"Got `1` rows from `mdwekwps_rg_form_meta` of `1000` max."}
+{"event":"details","time":1477906573,"u":"71","run":"2.07","mem":"49.86","data":"Dumped `1` rows total from `mdwekwps_rg_form_meta`. No rows remain."}
+{"event":"details","time":1477906573,"u":"71","run":"2.07","mem":"49.86","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"71","run":"2.07","mem":"49.86","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"71","run":"2.07","mem":"49.86","data":"Finished dumping database table `mdwekwps_rg_form_meta`."}
+{"event":"finishTableDump","time":1477906573,"u":"71","run":"2.07","mem":"49.86","data":"mdwekwps_rg_form_meta"}
+{"event":"details","time":1477906573,"u":"72","run":"2.07","mem":"49.86","data":"Database SQL dump file (mdwekwps_rg_form_meta.sql) size: 5 KB"}
+{"event":"sqlSize","time":1477906573,"u":"72","run":"2.07","mem":"49.86","data":"4994"}
+{"event":"details","time":1477906573,"u":"72","run":"2.07","mem":"49.86","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"72","run":"2.07","mem":"49.86","data":"Dumping database table `mdwekwps_rg_form_view`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"72","run":"2.07","mem":"49.86","data":"mdwekwps_rg_form_view"}
+{"event":"details","time":1477906573,"u":"72","run":"2.07","mem":"49.86","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_form_view.sql`."}
+{"event":"details","time":1477906573,"u":"72","run":"2.07","mem":"49.86","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"72","run":"2.07","mem":"49.86","data":"mdwekwps_rg_form_view.sql"}
+{"event":"details","time":1477906573,"u":"75","run":"2.10","mem":"49.98","data":"Got `67` rows from `mdwekwps_rg_form_view` of `1000` max."}
+{"event":"details","time":1477906573,"u":"75","run":"2.11","mem":"49.99","data":"Dumped `67` rows total from `mdwekwps_rg_form_view`. No rows remain."}
+{"event":"details","time":1477906573,"u":"75","run":"2.11","mem":"49.99","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"75","run":"2.11","mem":"49.99","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"75","run":"2.11","mem":"49.99","data":"Finished dumping database table `mdwekwps_rg_form_view`."}
+{"event":"finishTableDump","time":1477906573,"u":"75","run":"2.11","mem":"49.99","data":"mdwekwps_rg_form_view"}
+{"event":"details","time":1477906573,"u":"75","run":"2.11","mem":"49.99","data":"Database SQL dump file (mdwekwps_rg_form_view.sql) size: 7 KB"}
+{"event":"sqlSize","time":1477906573,"u":"75","run":"2.11","mem":"49.99","data":"7349"}
+{"event":"details","time":1477906573,"u":"75","run":"2.11","mem":"49.99","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"75","run":"2.11","mem":"49.99","data":"Dumping database table `mdwekwps_rg_incomplete_submissions`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"75","run":"2.11","mem":"49.99","data":"mdwekwps_rg_incomplete_submissions"}
+{"event":"details","time":1477906573,"u":"75","run":"2.11","mem":"49.99","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_incomplete_submissions.sql`."}
+{"event":"details","time":1477906573,"u":"75","run":"2.11","mem":"49.99","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"75","run":"2.11","mem":"49.99","data":"mdwekwps_rg_incomplete_submissions.sql"}
+{"event":"details","time":1477906573,"u":"76","run":"2.11","mem":"49.85","data":"Got `0` rows from `mdwekwps_rg_incomplete_submissions` of `1000` max."}
+{"event":"details","time":1477906573,"u":"76","run":"2.11","mem":"49.86","data":"Dumped `0` rows total from `mdwekwps_rg_incomplete_submissions`. No rows remain."}
+{"event":"details","time":1477906573,"u":"76","run":"2.11","mem":"49.86","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"76","run":"2.11","mem":"49.86","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"76","run":"2.11","mem":"49.86","data":"Finished dumping database table `mdwekwps_rg_incomplete_submissions`."}
+{"event":"finishTableDump","time":1477906573,"u":"76","run":"2.11","mem":"49.86","data":"mdwekwps_rg_incomplete_submissions"}
+{"event":"details","time":1477906573,"u":"76","run":"2.11","mem":"49.86","data":"Database SQL dump file (mdwekwps_rg_incomplete_submissions.sql) size: 688 Bytes"}
+{"event":"sqlSize","time":1477906573,"u":"76","run":"2.11","mem":"49.86","data":"688"}
+{"event":"details","time":1477906573,"u":"76","run":"2.11","mem":"49.86","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"76","run":"2.11","mem":"49.86","data":"Dumping database table `mdwekwps_rg_lead`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"76","run":"2.11","mem":"49.86","data":"mdwekwps_rg_lead"}
+{"event":"details","time":1477906573,"u":"76","run":"2.11","mem":"49.86","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_lead.sql`."}
+{"event":"details","time":1477906573,"u":"76","run":"2.11","mem":"49.86","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"76","run":"2.11","mem":"49.86","data":"mdwekwps_rg_lead.sql"}
+{"event":"details","time":1477906573,"u":"78","run":"2.13","mem":"49.90","data":"Got `9` rows from `mdwekwps_rg_lead` of `1000` max."}
+{"event":"details","time":1477906573,"u":"78","run":"2.13","mem":"49.94","data":"Dumped `9` rows total from `mdwekwps_rg_lead`. No rows remain."}
+{"event":"details","time":1477906573,"u":"78","run":"2.13","mem":"49.94","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"78","run":"2.13","mem":"49.94","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"78","run":"2.13","mem":"49.94","data":"Finished dumping database table `mdwekwps_rg_lead`."}
+{"event":"finishTableDump","time":1477906573,"u":"78","run":"2.13","mem":"49.94","data":"mdwekwps_rg_lead"}
+{"event":"details","time":1477906573,"u":"78","run":"2.13","mem":"49.94","data":"Database SQL dump file (mdwekwps_rg_lead.sql) size: 4 KB"}
+{"event":"sqlSize","time":1477906573,"u":"78","run":"2.13","mem":"49.94","data":"4360"}
+{"event":"details","time":1477906573,"u":"78","run":"2.13","mem":"49.94","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"78","run":"2.13","mem":"49.94","data":"Dumping database table `mdwekwps_rg_lead_detail`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"78","run":"2.13","mem":"49.94","data":"mdwekwps_rg_lead_detail"}
+{"event":"details","time":1477906573,"u":"78","run":"2.13","mem":"49.94","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_lead_detail.sql`."}
+{"event":"details","time":1477906573,"u":"78","run":"2.13","mem":"49.94","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"78","run":"2.13","mem":"49.94","data":"mdwekwps_rg_lead_detail.sql"}
+{"event":"details","time":1477906573,"u":"79","run":"2.14","mem":"49.92","data":"Got `33` rows from `mdwekwps_rg_lead_detail` of `1000` max."}
+{"event":"details","time":1477906573,"u":"79","run":"2.14","mem":"49.92","data":"Dumped `33` rows total from `mdwekwps_rg_lead_detail`. No rows remain."}
+{"event":"details","time":1477906573,"u":"79","run":"2.14","mem":"49.92","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"79","run":"2.14","mem":"49.92","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"79","run":"2.14","mem":"49.92","data":"Finished dumping database table `mdwekwps_rg_lead_detail`."}
+{"event":"finishTableDump","time":1477906573,"u":"79","run":"2.14","mem":"49.92","data":"mdwekwps_rg_lead_detail"}
+{"event":"details","time":1477906573,"u":"79","run":"2.14","mem":"49.92","data":"Database SQL dump file (mdwekwps_rg_lead_detail.sql) size: 5 KB"}
+{"event":"sqlSize","time":1477906573,"u":"79","run":"2.14","mem":"49.92","data":"4701"}
+{"event":"details","time":1477906573,"u":"79","run":"2.14","mem":"49.92","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"79","run":"2.14","mem":"49.92","data":"Dumping database table `mdwekwps_rg_lead_detail_long`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"79","run":"2.14","mem":"49.92","data":"mdwekwps_rg_lead_detail_long"}
+{"event":"details","time":1477906573,"u":"79","run":"2.14","mem":"49.92","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_lead_detail_long.sql`."}
+{"event":"details","time":1477906573,"u":"79","run":"2.14","mem":"49.92","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"79","run":"2.15","mem":"49.92","data":"mdwekwps_rg_lead_detail_long.sql"}
+{"event":"details","time":1477906573,"u":"80","run":"2.15","mem":"49.85","data":"Got `0` rows from `mdwekwps_rg_lead_detail_long` of `1000` max."}
+{"event":"details","time":1477906573,"u":"80","run":"2.15","mem":"49.85","data":"Dumped `0` rows total from `mdwekwps_rg_lead_detail_long`. No rows remain."}
+{"event":"details","time":1477906573,"u":"80","run":"2.16","mem":"49.85","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"80","run":"2.16","mem":"49.85","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"80","run":"2.16","mem":"49.85","data":"Finished dumping database table `mdwekwps_rg_lead_detail_long`."}
+{"event":"finishTableDump","time":1477906573,"u":"80","run":"2.16","mem":"49.85","data":"mdwekwps_rg_lead_detail_long"}
+{"event":"details","time":1477906573,"u":"80","run":"2.16","mem":"49.85","data":"Database SQL dump file (mdwekwps_rg_lead_detail_long.sql) size: 376 Bytes"}
+{"event":"sqlSize","time":1477906573,"u":"80","run":"2.16","mem":"49.85","data":"376"}
+{"event":"details","time":1477906573,"u":"80","run":"2.16","mem":"49.85","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"80","run":"2.16","mem":"49.85","data":"Dumping database table `mdwekwps_rg_lead_meta`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"80","run":"2.16","mem":"49.85","data":"mdwekwps_rg_lead_meta"}
+{"event":"details","time":1477906573,"u":"80","run":"2.16","mem":"49.85","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_lead_meta.sql`."}
+{"event":"details","time":1477906573,"u":"80","run":"2.16","mem":"49.85","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"80","run":"2.16","mem":"49.85","data":"mdwekwps_rg_lead_meta.sql"}
+{"event":"details","time":1477906573,"u":"80","run":"2.16","mem":"49.84","data":"Got `0` rows from `mdwekwps_rg_lead_meta` of `1000` max."}
+{"event":"details","time":1477906573,"u":"80","run":"2.16","mem":"49.86","data":"Dumped `0` rows total from `mdwekwps_rg_lead_meta`. No rows remain."}
+{"event":"details","time":1477906573,"u":"80","run":"2.16","mem":"49.86","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"Finished dumping database table `mdwekwps_rg_lead_meta`."}
+{"event":"finishTableDump","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"mdwekwps_rg_lead_meta"}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"Database SQL dump file (mdwekwps_rg_lead_meta.sql) size: 629 Bytes"}
+{"event":"sqlSize","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"629"}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"Dumping database table `mdwekwps_rg_lead_notes`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"mdwekwps_rg_lead_notes"}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_lead_notes.sql`."}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"mdwekwps_rg_lead_notes.sql"}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.85","data":"Got `0` rows from `mdwekwps_rg_lead_notes` of `1000` max."}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"Dumped `0` rows total from `mdwekwps_rg_lead_notes`. No rows remain."}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"Finished dumping database table `mdwekwps_rg_lead_notes`."}
+{"event":"finishTableDump","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"mdwekwps_rg_lead_notes"}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"Database SQL dump file (mdwekwps_rg_lead_notes.sql) size: 660 Bytes"}
+{"event":"sqlSize","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"660"}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"Dumping database table `mdwekwps_term_relationships`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"mdwekwps_term_relationships"}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_term_relationships.sql`."}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"mdwekwps_term_relationships.sql"}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"Got `7` rows from `mdwekwps_term_relationships` of `1000` max."}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"Dumped `7` rows total from `mdwekwps_term_relationships`. No rows remain."}
+{"event":"details","time":1477906573,"u":"81","run":"2.16","mem":"49.86","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"81","run":"2.17","mem":"49.86","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"81","run":"2.17","mem":"49.86","data":"Finished dumping database table `mdwekwps_term_relationships`."}
+{"event":"finishTableDump","time":1477906573,"u":"81","run":"2.17","mem":"49.86","data":"mdwekwps_term_relationships"}
+{"event":"details","time":1477906573,"u":"81","run":"2.17","mem":"49.86","data":"Database SQL dump file (mdwekwps_term_relationships.sql) size: 963 Bytes"}
+{"event":"sqlSize","time":1477906573,"u":"81","run":"2.17","mem":"49.86","data":"963"}
+{"event":"details","time":1477906573,"u":"81","run":"2.17","mem":"49.86","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"81","run":"2.17","mem":"49.86","data":"Dumping database table `mdwekwps_term_taxonomy`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"81","run":"2.17","mem":"49.86","data":"mdwekwps_term_taxonomy"}
+{"event":"details","time":1477906573,"u":"81","run":"2.17","mem":"49.86","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_term_taxonomy.sql`."}
+{"event":"details","time":1477906573,"u":"81","run":"2.17","mem":"49.86","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"81","run":"2.17","mem":"49.86","data":"mdwekwps_term_taxonomy.sql"}
+{"event":"details","time":1477906573,"u":"81","run":"2.17","mem":"49.85","data":"Got `2` rows from `mdwekwps_term_taxonomy` of `1000` max."}
+{"event":"details","time":1477906573,"u":"81","run":"2.17","mem":"49.86","data":"Dumped `2` rows total from `mdwekwps_term_taxonomy`. No rows remain."}
+{"event":"details","time":1477906573,"u":"81","run":"2.17","mem":"49.86","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"81","run":"2.17","mem":"49.86","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"82","run":"2.17","mem":"49.86","data":"Finished dumping database table `mdwekwps_term_taxonomy`."}
+{"event":"finishTableDump","time":1477906573,"u":"82","run":"2.17","mem":"49.86","data":"mdwekwps_term_taxonomy"}
+{"event":"details","time":1477906573,"u":"82","run":"2.17","mem":"49.86","data":"Database SQL dump file (mdwekwps_term_taxonomy.sql) size: 875 Bytes"}
+{"event":"sqlSize","time":1477906573,"u":"82","run":"2.17","mem":"49.86","data":"875"}
+{"event":"details","time":1477906573,"u":"82","run":"2.17","mem":"49.86","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"82","run":"2.17","mem":"49.86","data":"Dumping database table `mdwekwps_termmeta`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"82","run":"2.17","mem":"49.86","data":"mdwekwps_termmeta"}
+{"event":"details","time":1477906573,"u":"82","run":"2.17","mem":"49.86","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_termmeta.sql`."}
+{"event":"details","time":1477906573,"u":"82","run":"2.17","mem":"49.86","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"82","run":"2.17","mem":"49.86","data":"mdwekwps_termmeta.sql"}
+{"event":"details","time":1477906573,"u":"82","run":"2.17","mem":"49.84","data":"Got `0` rows from `mdwekwps_termmeta` of `1000` max."}
+{"event":"details","time":1477906573,"u":"82","run":"2.17","mem":"49.85","data":"Dumped `0` rows total from `mdwekwps_termmeta`. No rows remain."}
+{"event":"details","time":1477906573,"u":"82","run":"2.17","mem":"49.85","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"82","run":"2.18","mem":"49.85","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"82","run":"2.18","mem":"49.85","data":"Finished dumping database table `mdwekwps_termmeta`."}
+{"event":"finishTableDump","time":1477906573,"u":"82","run":"2.18","mem":"49.85","data":"mdwekwps_termmeta"}
+{"event":"details","time":1477906573,"u":"83","run":"2.18","mem":"49.85","data":"Database SQL dump file (mdwekwps_termmeta.sql) size: 531 Bytes"}
+{"event":"sqlSize","time":1477906573,"u":"83","run":"2.18","mem":"49.85","data":"531"}
+{"event":"details","time":1477906573,"u":"83","run":"2.18","mem":"49.85","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"83","run":"2.18","mem":"49.85","data":"Dumping database table `mdwekwps_terms`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"83","run":"2.18","mem":"49.85","data":"mdwekwps_terms"}
+{"event":"details","time":1477906573,"u":"83","run":"2.18","mem":"49.85","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_terms.sql`."}
+{"event":"details","time":1477906573,"u":"83","run":"2.18","mem":"49.85","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"83","run":"2.18","mem":"49.85","data":"mdwekwps_terms.sql"}
+{"event":"details","time":1477906573,"u":"83","run":"2.19","mem":"49.85","data":"Got `2` rows from `mdwekwps_terms` of `1000` max."}
+{"event":"details","time":1477906573,"u":"83","run":"2.19","mem":"49.86","data":"Dumped `2` rows total from `mdwekwps_terms`. No rows remain."}
+{"event":"details","time":1477906573,"u":"83","run":"2.19","mem":"49.86","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"83","run":"2.19","mem":"49.86","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"83","run":"2.19","mem":"49.85","data":"Finished dumping database table `mdwekwps_terms`."}
+{"event":"finishTableDump","time":1477906573,"u":"83","run":"2.19","mem":"49.85","data":"mdwekwps_terms"}
+{"event":"details","time":1477906573,"u":"83","run":"2.19","mem":"49.85","data":"Database SQL dump file (mdwekwps_terms.sql) size: 689 Bytes"}
+{"event":"sqlSize","time":1477906573,"u":"83","run":"2.19","mem":"49.85","data":"689"}
+{"event":"details","time":1477906573,"u":"83","run":"2.19","mem":"49.85","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"83","run":"2.19","mem":"49.85","data":"Dumping database table `mdwekwps_usermeta`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"83","run":"2.19","mem":"49.85","data":"mdwekwps_usermeta"}
+{"event":"details","time":1477906573,"u":"83","run":"2.19","mem":"49.85","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_usermeta.sql`."}
+{"event":"details","time":1477906573,"u":"83","run":"2.19","mem":"49.85","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"84","run":"2.19","mem":"49.86","data":"mdwekwps_usermeta.sql"}
+{"event":"details","time":1477906573,"u":"84","run":"2.19","mem":"49.97","data":"Got `62` rows from `mdwekwps_usermeta` of `1000` max."}
+{"event":"details","time":1477906573,"u":"85","run":"2.20","mem":"49.98","data":"Dumped `62` rows total from `mdwekwps_usermeta`. No rows remain."}
+{"event":"details","time":1477906573,"u":"85","run":"2.20","mem":"49.98","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"85","run":"2.20","mem":"49.98","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"85","run":"2.20","mem":"49.98","data":"Finished dumping database table `mdwekwps_usermeta`."}
+{"event":"finishTableDump","time":1477906573,"u":"85","run":"2.20","mem":"49.98","data":"mdwekwps_usermeta"}
+{"event":"details","time":1477906573,"u":"85","run":"2.20","mem":"49.98","data":"Database SQL dump file (mdwekwps_usermeta.sql) size: 29 KB"}
+{"event":"sqlSize","time":1477906573,"u":"85","run":"2.20","mem":"49.98","data":"30011"}
+{"event":"details","time":1477906573,"u":"85","run":"2.20","mem":"49.98","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"85","run":"2.20","mem":"49.98","data":"Dumping database table `mdwekwps_users`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477906573,"u":"85","run":"2.20","mem":"49.98","data":"mdwekwps_users"}
+{"event":"details","time":1477906573,"u":"85","run":"2.20","mem":"49.98","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_users.sql`."}
+{"event":"details","time":1477906573,"u":"85","run":"2.20","mem":"49.98","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477906573,"u":"85","run":"2.20","mem":"49.98","data":"mdwekwps_users.sql"}
+{"event":"details","time":1477906573,"u":"85","run":"2.20","mem":"49.85","data":"Got `2` rows from `mdwekwps_users` of `1000` max."}
+{"event":"details","time":1477906573,"u":"85","run":"2.20","mem":"49.87","data":"Dumped `2` rows total from `mdwekwps_users`. No rows remain."}
+{"event":"details","time":1477906573,"u":"85","run":"2.20","mem":"49.87","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"86","run":"2.21","mem":"49.87","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"86","run":"2.21","mem":"49.87","data":"Finished dumping database table `mdwekwps_users`."}
+{"event":"finishTableDump","time":1477906573,"u":"86","run":"2.21","mem":"49.87","data":"mdwekwps_users"}
+{"event":"details","time":1477906573,"u":"86","run":"2.21","mem":"49.87","data":"Database SQL dump file (mdwekwps_users.sql) size: 1 KB"}
+{"event":"sqlSize","time":1477906573,"u":"86","run":"2.21","mem":"49.87","data":"1418"}
+{"event":"details","time":1477906573,"u":"86","run":"2.21","mem":"49.87","data":"About to flush..."}
+{"event":"details","time":1477906573,"u":"86","run":"2.21","mem":"49.87","data":"Finished PHP based SQL dump method. Ran for 1.003 sec."}
+{"event":"details","time":1477906573,"u":"86","run":"2.21","mem":"49.86","data":"mysqlbuddy: Dump method `php` completed successfully."}
+{"event":"milestone","time":1477906573,"u":"86","run":"2.21","mem":"49.86","data":"finish_database"}
+{"event":"message","time":1477906573,"u":"86","run":"2.21","mem":"49.86","data":"Database dump procedure succeeded."}
+{"event":"details","time":1477906573,"u":"86","run":"2.22","mem":"49.87","data":"Fileoptions `o9wsis7boi.txt` saved. 8184 bytes written."}
+{"event":"details","time":1477906573,"u":"86","run":"2.22","mem":"49.86","data":"Finished function `backup_create_database_dump`. Peak memory usage: 54.998 MB with BackupBuddy v7.2.0.1"}
+{"event":"finishFunction","time":1477906573,"u":"86","run":"2.22","mem":"49.86","data":"{\"function\":\"backup_create_database_dump\"}"}
+{"event":"details","time":1477906573,"u":"86","run":"2.22","mem":"49.86","data":"-----"}
+{"event":"details","time":1477906573,"u":"86","run":"2.22","mem":"49.86","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1477906573,"u":"86","run":"2.22","mem":"49.86","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1477906573,"u":"86","run":"2.22","mem":"49.86","data":"Scheduling Cron for `o9wsis7boi`."}
+{"event":"details","time":1477906573,"u":"86","run":"2.22","mem":"49.86","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1477906573,"u":"86","run":"2.22","mem":"49.86","data":"Pinging mysql."}
+{"event":"details","time":1477906573,"u":"86","run":"2.22","mem":"49.86","data":"Database Server connection status verified."}
+{"event":"details","time":1477906573,"u":"86","run":"2.22","mem":"49.86","data":"Scheduling next step to run at `1477906573` (localized time: Oct 31, 2016 9:36:13 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `o9wsis7boi`."}
+{"event":"details","time":1477906573,"u":"87","run":"2.22","mem":"49.84","data":"Next step scheduled."}
+{"event":"startAction","time":1477906573,"u":"87","run":"2.22","mem":"49.84","data":"cronPass"}
+{"event":"cronParams","time":1477906573,"u":"87","run":"2.22","mem":"49.84","data":"eyJ0aW1lIjoxNDc3OTA2NTczLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIm85d3Npczdib2kiXX0="}
+{"event":"details","time":1477906573,"u":"87","run":"2.22","mem":"49.83","data":"Not calling spawn_cron()."}
+{"event":"details","time":1477906573,"u":"87","run":"2.22","mem":"49.83","data":"About to run next step (backup_create_database_dump expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1477906573,"u":"87","run":"2.22","mem":"49.83","data":"Completed step function `backup_create_database_dump`."}
+{"event":"details","time":1477912217,"u":"83","run":"0.54","mem":"48.47","data":"Rescheduled cron for method `process_backup` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => o9wsis7boi\n)\n`. Reschedule count: `1`. Previous method: `live`."}
+{"event":"details","time":1477912219,"u":"83","run":"0.51","mem":"48.46","data":"Rescheduled cron for method `process_backup` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => o9wsis7boi\n)\n`. Reschedule count: `2`. Previous method: `live`."}
+{"event":"details","time":1477913916,"u":"67","run":"0.52","mem":"47.79","data":"--- New PHP process."}
+{"event":"details","time":1477913916,"u":"68","run":"0.52","mem":"47.78","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1477913916,"u":"68","run":"0.52","mem":"47.78","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1477913916,"u":"68","run":"0.52","mem":"47.79","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1477913916,"u":"68","run":"0.52","mem":"47.79","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1477913916,"u":"68","run":"0.52","mem":"47.79","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1477913916,"u":"68","run":"0.52","mem":"47.78","data":"Running process for serial `o9wsis7boi`..."}
+{"event":"details","time":1477913916,"u":"72","run":"0.56","mem":"49.45","data":"About to load fileoptions data for serial `o9wsis7boi`."}
+{"event":"details","time":1477913916,"u":"73","run":"0.57","mem":"49.54","data":"Fileoptions instance #39."}
+{"event":"details","time":1477913916,"u":"74","run":"0.58","mem":"49.54","data":"Created fileoptions lock file `o9wsis7boi.txt.lock` with ID: 58172d3cb527f7.36669520."}
+{"event":"details","time":1477913916,"u":"75","run":"0.59","mem":"49.58","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1477913916,"u":"75","run":"0.59","mem":"49.58","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1477913916,"u":"75","run":"0.59","mem":"49.58","data":"cronPass"}
+{"event":"details","time":1477913916,"u":"75","run":"0.60","mem":"49.60","data":"Fileoptions `o9wsis7boi.txt` saved. 8224 bytes written."}
+{"event":"details","time":1477913916,"u":"75","run":"0.60","mem":"49.58","data":"Found next step to run: `backup_create_database_dump`."}
+{"event":"details","time":1477913916,"u":"75","run":"0.60","mem":"49.58","data":"Peak memory usage: 49.748 MB"}
+{"event":"details","time":1477913916,"u":"75","run":"0.60","mem":"49.58","data":"-----"}
+{"event":"details","time":1477913916,"u":"75","run":"0.60","mem":"49.58","data":"Starting step function `backup_create_database_dump`. Attempt #1."}
+{"event":"startFunction","time":1477913916,"u":"75","run":"0.60","mem":"49.58","data":"{\"function\":\"backup_create_database_dump\",\"title\":\"Backing up database\"}"}
+{"event":"milestone","time":1477913916,"u":"75","run":"0.60","mem":"49.58","data":"start_database"}
+{"event":"message","time":1477913916,"u":"75","run":"0.60","mem":"49.58","data":"Starting database backup process."}
+{"event":"details","time":1477913916,"u":"77","run":"0.61","mem":"49.82","data":"PHP-based mysqldump (if applicable) max rows per select set to 1000."}
+{"event":"details","time":1477913916,"u":"77","run":"0.61","mem":"49.83","data":"Database host for dumping: `localhost`"}
+{"event":"details","time":1477913916,"u":"77","run":"0.61","mem":"49.83","data":"Loading mysqlbuddy library."}
+{"event":"details","time":1477913916,"u":"77","run":"0.61","mem":"49.83","data":"Mysql server default directories: `\/usr\/bin\/,\/usr\/bin\/mysql\/,\/usr\/local\/bin\/`"}
+{"event":"details","time":1477913916,"u":"77","run":"0.61","mem":"49.83","data":"mysqlbuddy: Force method of `1` passed."}
+{"event":"message","time":1477913916,"u":"77","run":"0.61","mem":"49.83","data":"mysqlbuddy: Settings overriding automatic detection of available database dump methods. Using forced override methods: `php`."}
+{"event":"message","time":1477913916,"u":"77","run":"0.61","mem":"49.83","data":"mysqlbuddy: Detected database dump methods: `php`."}
+{"event":"details","time":1477913916,"u":"77","run":"0.61","mem":"49.83","data":"If applicable, breaking up with max execution time `30` seconds."}
+{"event":"details","time":1477913916,"u":"77","run":"0.61","mem":"49.83","data":"This server's mysql version: `5.5.51`."}
+{"event":"milestone","time":1477913916,"u":"77","run":"0.61","mem":"49.83","data":"start_database"}
+{"event":"message","time":1477913916,"u":"77","run":"0.61","mem":"49.83","data":"Starting database dump procedure."}
+{"event":"details","time":1477913916,"u":"77","run":"0.61","mem":"49.83","data":"mysqlbuddy: Output directory: `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/`."}
+{"event":"details","time":1477913916,"u":"77","run":"0.61","mem":"49.83","data":"Dumping single table `mdwekwps_posts`."}
+{"event":"details","time":1477913916,"u":"77","run":"0.61","mem":"49.83","data":"Preparing to dump using available method(s) by priority. Methods: `php`"}
+{"event":"details","time":1477913916,"u":"77","run":"0.61","mem":"49.83","data":"mysqlbuddy: Attempting dump method `php`."}
+{"event":"details","time":1477913916,"u":"77","run":"0.61","mem":"49.83","data":"Loading DB kicker for use leter in case database goes away."}
+{"event":"details","time":1477913916,"u":"78","run":"0.63","mem":"49.86","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1477913916,"u":"78","run":"0.63","mem":"49.86","data":"Dumping database table `mdwekwps_posts`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477913916,"u":"78","run":"0.63","mem":"49.86","data":"mdwekwps_posts"}
+{"event":"details","time":1477913916,"u":"78","run":"0.63","mem":"49.86","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_posts.sql`."}
+{"event":"details","time":1477913916,"u":"79","run":"0.63","mem":"49.86","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477913916,"u":"79","run":"0.63","mem":"49.86","data":"mdwekwps_posts.sql"}
+{"event":"details","time":1477913916,"u":"79","run":"0.64","mem":"50.94","data":"Got `142` rows from `mdwekwps_posts` of `1000` max."}
+{"event":"details","time":1477913916,"u":"81","run":"0.66","mem":"50.99","data":"Dumped `142` rows total from `mdwekwps_posts`. No rows remain."}
+{"event":"details","time":1477913916,"u":"81","run":"0.66","mem":"50.99","data":"Pinging mysql."}
+{"event":"details","time":1477913916,"u":"81","run":"0.66","mem":"50.99","data":"Database Server connection status verified."}
+{"event":"details","time":1477913916,"u":"81","run":"0.66","mem":"50.99","data":"Finished dumping database table `mdwekwps_posts`."}
+{"event":"finishTableDump","time":1477913916,"u":"81","run":"0.66","mem":"50.99","data":"mdwekwps_posts"}
+{"event":"details","time":1477913916,"u":"81","run":"0.66","mem":"51.00","data":"Database SQL dump file (mdwekwps_posts.sql) size: 127 KB"}
+{"event":"sqlSize","time":1477913916,"u":"81","run":"0.66","mem":"51.00","data":"130203"}
+{"event":"details","time":1477913916,"u":"81","run":"0.66","mem":"51.00","data":"About to flush..."}
+{"event":"details","time":1477913916,"u":"81","run":"0.66","mem":"51.00","data":"Finished PHP based SQL dump method. Ran for 0.044 sec."}
+{"event":"details","time":1477913916,"u":"81","run":"0.66","mem":"50.64","data":"mysqlbuddy: Dump method `php` completed successfully."}
+{"event":"milestone","time":1477913916,"u":"81","run":"0.66","mem":"50.64","data":"finish_database"}
+{"event":"message","time":1477913916,"u":"81","run":"0.66","mem":"50.64","data":"Database dump procedure succeeded."}
+{"event":"details","time":1477913916,"u":"82","run":"0.67","mem":"50.66","data":"Fileoptions `o9wsis7boi.txt` saved. 8268 bytes written."}
+{"event":"details","time":1477913916,"u":"82","run":"0.67","mem":"50.64","data":"Finished function `backup_create_database_dump`. Peak memory usage: 51.118 MB with BackupBuddy v7.2.0.1"}
+{"event":"finishFunction","time":1477913916,"u":"82","run":"0.67","mem":"50.64","data":"{\"function\":\"backup_create_database_dump\"}"}
+{"event":"details","time":1477913916,"u":"82","run":"0.67","mem":"50.64","data":"-----"}
+{"event":"details","time":1477913916,"u":"82","run":"0.67","mem":"50.64","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1477913916,"u":"82","run":"0.67","mem":"50.64","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1477913916,"u":"82","run":"0.67","mem":"50.64","data":"Scheduling Cron for `o9wsis7boi`."}
+{"event":"details","time":1477913916,"u":"82","run":"0.67","mem":"50.64","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1477913916,"u":"82","run":"0.67","mem":"50.64","data":"Pinging mysql."}
+{"event":"details","time":1477913916,"u":"82","run":"0.67","mem":"50.64","data":"Database Server connection status verified."}
+{"event":"details","time":1477913916,"u":"82","run":"0.67","mem":"50.64","data":"Scheduling next step to run at `1477913916` (localized time: Oct 31, 2016 11:38:36 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `o9wsis7boi`."}
+{"event":"details","time":1477913916,"u":"83","run":"0.67","mem":"49.86","data":"Next step scheduled."}
+{"event":"startAction","time":1477913916,"u":"83","run":"0.67","mem":"49.86","data":"cronPass"}
+{"event":"cronParams","time":1477913916,"u":"83","run":"0.67","mem":"49.86","data":"eyJ0aW1lIjoxNDc3OTEzOTE2LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIm85d3Npczdib2kiXX0="}
+{"event":"details","time":1477913916,"u":"83","run":"0.68","mem":"49.86","data":"Not calling spawn_cron()."}
+{"event":"details","time":1477913916,"u":"83","run":"0.68","mem":"49.86","data":"About to run next step (backup_create_database_dump expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1477913916,"u":"83","run":"0.68","mem":"49.86","data":"Completed step function `backup_create_database_dump`."}
+{"event":"details","time":1477929095,"u":"34","run":"4.55","mem":"52.31","data":"Rescheduled cron for method `process_backup` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => o9wsis7boi\n)\n`. Reschedule count: `1`. Previous method: `live`."}
+{"event":"details","time":1477932452,"u":"32","run":"0.53","mem":"47.70","data":"--- New PHP process."}
+{"event":"details","time":1477932452,"u":"33","run":"0.54","mem":"47.70","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1477932452,"u":"33","run":"0.54","mem":"47.70","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1477932452,"u":"33","run":"0.54","mem":"47.70","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1477932452,"u":"33","run":"0.54","mem":"47.70","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1477932452,"u":"33","run":"0.54","mem":"47.70","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1477932452,"u":"33","run":"0.54","mem":"47.70","data":"Running process for serial `o9wsis7boi`..."}
+{"event":"details","time":1477932452,"u":"62","run":"0.83","mem":"49.37","data":"About to load fileoptions data for serial `o9wsis7boi`."}
+{"event":"details","time":1477932452,"u":"62","run":"0.83","mem":"49.45","data":"Fileoptions instance #39."}
+{"event":"details","time":1477932452,"u":"66","run":"0.87","mem":"49.45","data":"Created fileoptions lock file `o9wsis7boi.txt.lock` with ID: 581775a4a20cd7.41886372."}
+{"event":"details","time":1477932452,"u":"68","run":"0.89","mem":"49.49","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1477932452,"u":"68","run":"0.89","mem":"49.49","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1477932452,"u":"68","run":"0.89","mem":"49.49","data":"cronPass"}
+{"event":"details","time":1477932452,"u":"68","run":"0.89","mem":"49.51","data":"Fileoptions `o9wsis7boi.txt` saved. 8308 bytes written."}
+{"event":"details","time":1477932452,"u":"68","run":"0.89","mem":"49.49","data":"Found next step to run: `backup_create_database_dump`."}
+{"event":"details","time":1477932452,"u":"68","run":"0.89","mem":"49.49","data":"Peak memory usage: 49.659 MB"}
+{"event":"details","time":1477932452,"u":"68","run":"0.89","mem":"49.49","data":"-----"}
+{"event":"details","time":1477932452,"u":"68","run":"0.89","mem":"49.49","data":"Starting step function `backup_create_database_dump`. Attempt #1."}
+{"event":"startFunction","time":1477932452,"u":"68","run":"0.89","mem":"49.49","data":"{\"function\":\"backup_create_database_dump\",\"title\":\"Backing up database\"}"}
+{"event":"milestone","time":1477932452,"u":"68","run":"0.89","mem":"49.49","data":"start_database"}
+{"event":"message","time":1477932452,"u":"68","run":"0.89","mem":"49.49","data":"Starting database backup process."}
+{"event":"details","time":1477932452,"u":"72","run":"0.92","mem":"49.73","data":"PHP-based mysqldump (if applicable) max rows per select set to 1000."}
+{"event":"details","time":1477932452,"u":"73","run":"0.94","mem":"49.74","data":"Database host for dumping: `localhost`"}
+{"event":"details","time":1477932452,"u":"73","run":"0.94","mem":"49.74","data":"Loading mysqlbuddy library."}
+{"event":"details","time":1477932452,"u":"73","run":"0.94","mem":"49.74","data":"Mysql server default directories: `\/usr\/bin\/,\/usr\/bin\/mysql\/,\/usr\/local\/bin\/`"}
+{"event":"details","time":1477932452,"u":"73","run":"0.94","mem":"49.74","data":"mysqlbuddy: Force method of `1` passed."}
+{"event":"message","time":1477932452,"u":"73","run":"0.94","mem":"49.74","data":"mysqlbuddy: Settings overriding automatic detection of available database dump methods. Using forced override methods: `php`."}
+{"event":"message","time":1477932452,"u":"74","run":"0.94","mem":"49.74","data":"mysqlbuddy: Detected database dump methods: `php`."}
+{"event":"details","time":1477932452,"u":"74","run":"0.94","mem":"49.74","data":"If applicable, breaking up with max execution time `30` seconds."}
+{"event":"details","time":1477932452,"u":"74","run":"0.94","mem":"49.74","data":"This server's mysql version: `5.5.51`."}
+{"event":"milestone","time":1477932452,"u":"74","run":"0.94","mem":"49.74","data":"start_database"}
+{"event":"message","time":1477932452,"u":"74","run":"0.94","mem":"49.74","data":"Starting database dump procedure."}
+{"event":"details","time":1477932452,"u":"74","run":"0.94","mem":"49.74","data":"mysqlbuddy: Output directory: `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/`."}
+{"event":"details","time":1477932452,"u":"74","run":"0.94","mem":"49.74","data":"Dumping single table `mdwekwps_postmeta`."}
+{"event":"details","time":1477932452,"u":"75","run":"0.96","mem":"49.74","data":"Preparing to dump using available method(s) by priority. Methods: `php`"}
+{"event":"details","time":1477932452,"u":"75","run":"0.96","mem":"49.74","data":"mysqlbuddy: Attempting dump method `php`."}
+{"event":"details","time":1477932452,"u":"75","run":"0.96","mem":"49.75","data":"Loading DB kicker for use leter in case database goes away."}
+{"event":"details","time":1477932452,"u":"77","run":"0.97","mem":"49.77","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1477932452,"u":"77","run":"0.97","mem":"49.77","data":"Dumping database table `mdwekwps_postmeta`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1477932452,"u":"77","run":"0.97","mem":"49.77","data":"mdwekwps_postmeta"}
+{"event":"details","time":1477932452,"u":"77","run":"0.97","mem":"49.77","data":"SQL dump file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_postmeta.sql`."}
+{"event":"details","time":1477932452,"u":"77","run":"0.98","mem":"49.77","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1477932452,"u":"77","run":"0.98","mem":"49.77","data":"mdwekwps_postmeta.sql"}
+{"event":"details","time":1477932452,"u":"79","run":"1.00","mem":"51.54","data":"Got `1000` rows from `mdwekwps_postmeta` of `1000` max."}
+{"event":"details","time":1477932452,"u":"81","run":"1.01","mem":"51.55","data":"Working... Dumped `500` rows from `mdwekwps_postmeta` so far."}
+{"event":"details","time":1477932452,"u":"83","run":"1.04","mem":"51.55","data":"Working... Dumped `1000` rows from `mdwekwps_postmeta` so far."}
+{"event":"details","time":1477932452,"u":"83","run":"1.04","mem":"51.55","data":"Pinging mysql."}
+{"event":"details","time":1477932452,"u":"83","run":"1.04","mem":"51.55","data":"Database Server connection status verified."}
+{"event":"details","time":1477932452,"u":"85","run":"1.06","mem":"50.73","data":"Got `523` rows from `mdwekwps_postmeta` of `1000` max."}
+{"event":"details","time":1477932452,"u":"87","run":"1.08","mem":"50.74","data":"Working... Dumped `1500` rows from `mdwekwps_postmeta` so far."}
+{"event":"details","time":1477932452,"u":"87","run":"1.08","mem":"50.74","data":"Dumped `1523` rows total from `mdwekwps_postmeta`. No rows remain."}
+{"event":"details","time":1477932452,"u":"87","run":"1.08","mem":"50.74","data":"Pinging mysql."}
+{"event":"details","time":1477932452,"u":"87","run":"1.08","mem":"50.74","data":"Database Server connection status verified."}
+{"event":"details","time":1477932452,"u":"87","run":"1.08","mem":"50.74","data":"Finished dumping database table `mdwekwps_postmeta`."}
+{"event":"finishTableDump","time":1477932452,"u":"87","run":"1.08","mem":"50.74","data":"mdwekwps_postmeta"}
+{"event":"details","time":1477932452,"u":"87","run":"1.08","mem":"50.74","data":"Database SQL dump file (mdwekwps_postmeta.sql) size: 163 KB"}
+{"event":"sqlSize","time":1477932452,"u":"87","run":"1.08","mem":"50.74","data":"166854"}
+{"event":"details","time":1477932452,"u":"87","run":"1.08","mem":"50.74","data":"About to flush..."}
+{"event":"details","time":1477932452,"u":"87","run":"1.08","mem":"50.74","data":"Finished PHP based SQL dump method. Ran for 0.122 sec."}
+{"event":"details","time":1477932452,"u":"87","run":"1.08","mem":"50.40","data":"mysqlbuddy: Dump method `php` completed successfully."}
+{"event":"milestone","time":1477932452,"u":"87","run":"1.08","mem":"50.40","data":"finish_database"}
+{"event":"message","time":1477932452,"u":"87","run":"1.08","mem":"50.40","data":"Database dump procedure succeeded."}
+{"event":"details","time":1477932452,"u":"87","run":"1.08","mem":"50.41","data":"Fileoptions `o9wsis7boi.txt` saved. 8344 bytes written."}
+{"event":"details","time":1477932452,"u":"87","run":"1.08","mem":"50.40","data":"Finished function `backup_create_database_dump`. Peak memory usage: 51.859 MB with BackupBuddy v7.2.0.1"}
+{"event":"finishFunction","time":1477932452,"u":"87","run":"1.08","mem":"50.40","data":"{\"function\":\"backup_create_database_dump\"}"}
+{"event":"details","time":1477932452,"u":"87","run":"1.08","mem":"50.40","data":"-----"}
+{"event":"details","time":1477932452,"u":"88","run":"1.08","mem":"50.40","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1477932452,"u":"88","run":"1.08","mem":"50.40","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1477932452,"u":"88","run":"1.09","mem":"50.40","data":"Scheduling Cron for `o9wsis7boi`."}
+{"event":"details","time":1477932452,"u":"88","run":"1.09","mem":"50.40","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1477932452,"u":"88","run":"1.09","mem":"50.40","data":"Pinging mysql."}
+{"event":"details","time":1477932452,"u":"88","run":"1.09","mem":"50.40","data":"Database Server connection status verified."}
+{"event":"details","time":1477932452,"u":"88","run":"1.09","mem":"50.40","data":"Scheduling next step to run at `1477932452` (localized time: Oct 31, 2016 4:47:32 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `o9wsis7boi`."}
+{"event":"details","time":1477932452,"u":"89","run":"1.10","mem":"49.84","data":"Next step scheduled."}
+{"event":"startAction","time":1477932452,"u":"90","run":"1.10","mem":"49.84","data":"cronPass"}
+{"event":"cronParams","time":1477932452,"u":"90","run":"1.10","mem":"49.84","data":"eyJ0aW1lIjoxNDc3OTMyNDUyLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIm85d3Npczdib2kiXX0="}
+{"event":"details","time":1477932452,"u":"90","run":"1.11","mem":"49.83","data":"Not calling spawn_cron()."}
+{"event":"details","time":1477932452,"u":"90","run":"1.11","mem":"49.83","data":"About to run next step (backup_zip_files expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1477932452,"u":"90","run":"1.11","mem":"49.83","data":"Completed step function `backup_create_database_dump`."}
+{"event":"details","time":1477932469,"u":"40","run":"12.55","mem":"48.98","data":"Rescheduled cron for method `process_backup` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => o9wsis7boi\n)\n`. Reschedule count: `1`. Previous method: `live`."}
+{"event":"details","time":1477934207,"u":"20","run":"0.40","mem":"47.70","data":"--- New PHP process."}
+{"event":"details","time":1477934207,"u":"20","run":"0.40","mem":"47.70","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1477934207,"u":"20","run":"0.40","mem":"47.70","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1477934207,"u":"20","run":"0.40","mem":"47.70","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1477934207,"u":"20","run":"0.40","mem":"47.70","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1477934207,"u":"20","run":"0.40","mem":"47.70","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1477934207,"u":"21","run":"0.40","mem":"47.70","data":"Running process for serial `o9wsis7boi`..."}
+{"event":"details","time":1477934207,"u":"23","run":"0.42","mem":"49.36","data":"Exec test (zip) trying executable path: `\/usr\/local\/bin`."}
+{"event":"details","time":1477934207,"u":"25","run":"0.44","mem":"49.36","data":"Exec test (zip) FAILED: Test zip file not found."}
+{"event":"details","time":1477934207,"u":"25","run":"0.44","mem":"49.36","data":"Exec test (zip) FAILED: exec Exit Code: 127"}
+{"event":"details","time":1477934207,"u":"25","run":"0.44","mem":"49.36","data":"Exec test (zip) trying executable path: ``."}
+{"event":"details","time":1477934207,"u":"28","run":"0.47","mem":"49.36","data":"Exec test (zip) PASSED."}
+{"event":"details","time":1477934207,"u":"28","run":"0.47","mem":"49.36","data":"Checking zip version..."}
+{"event":"details","time":1477934207,"u":"30","run":"0.49","mem":"49.36","data":"Found zip version: 3.0"}
+{"event":"details","time":1477934207,"u":"30","run":"0.49","mem":"49.36","data":"Exec test (unzip) checking test file readable: \/home\/midweek\/public_html\/wp-content\/plugins\/backupbuddy\/lib\/zipbuddy\/zbzip.php"}
+{"event":"details","time":1477934207,"u":"34","run":"0.54","mem":"49.36","data":"Exec test (unzip) checking test file intact: 0a0f9b28c5ff89dfb4f2a0472be0ea8f"}
+{"event":"details","time":1477934207,"u":"35","run":"0.55","mem":"49.36","data":"Exec test (unzip) trying executable path: `\/usr\/local\/bin`."}
+{"event":"details","time":1477934207,"u":"36","run":"0.56","mem":"49.36","data":"Exec test (unzip) FAILED: Test unzip file test failed."}
+{"event":"details","time":1477934207,"u":"36","run":"0.56","mem":"49.36","data":"Exec test (unzip) FAILED: exec Exit Code: 127"}
+{"event":"details","time":1477934207,"u":"36","run":"0.56","mem":"49.36","data":"Exec test (unzip) trying executable path: ``."}
+{"event":"details","time":1477934207,"u":"40","run":"0.59","mem":"49.36","data":"Exec test (unzip) PASSED."}
+{"event":"details","time":1477934207,"u":"40","run":"0.59","mem":"49.36","data":"Checking unzip version..."}
+{"event":"details","time":1477934207,"u":"42","run":"0.61","mem":"49.36","data":"Found unzip version: 6.0"}
+{"event":"details","time":1477934207,"u":"43","run":"0.62","mem":"49.36","data":"ZipArchive test PASSED."}
+{"event":"details","time":1477934207,"u":"43","run":"0.62","mem":"49.37","data":"PCLZip class not found. Attempting to load from `\/home\/midweek\/public_html\/wp-admin\/includes\/class-pclzip.php`."}
+{"event":"details","time":1477934207,"u":"46","run":"0.65","mem":"50.10","data":"PclZip test PASSED."}
+{"event":"details","time":1477934207,"u":"47","run":"0.67","mem":"50.11","data":"About to load fileoptions data for serial `o9wsis7boi`."}
+{"event":"details","time":1477934207,"u":"47","run":"0.67","mem":"50.19","data":"Fileoptions instance #39."}
+{"event":"details","time":1477934207,"u":"48","run":"0.67","mem":"50.20","data":"Created fileoptions lock file `o9wsis7boi.txt.lock` with ID: 58177c7f752870.67283845."}
+{"event":"details","time":1477934207,"u":"48","run":"0.67","mem":"50.23","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1477934207,"u":"48","run":"0.67","mem":"50.22","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1477934207,"u":"48","run":"0.67","mem":"50.22","data":"cronPass"}
+{"event":"details","time":1477934207,"u":"48","run":"0.67","mem":"50.24","data":"Fileoptions `o9wsis7boi.txt` saved. 8384 bytes written."}
+{"event":"details","time":1477934207,"u":"48","run":"0.67","mem":"50.23","data":"Found next step to run: `backup_zip_files`."}
+{"event":"details","time":1477934207,"u":"48","run":"0.67","mem":"50.23","data":"Peak memory usage: 50.71 MB"}
+{"event":"details","time":1477934207,"u":"48","run":"0.67","mem":"50.23","data":"-----"}
+{"event":"details","time":1477934207,"u":"48","run":"0.67","mem":"50.23","data":"Starting step function `backup_zip_files`. Attempt #1."}
+{"event":"startFunction","time":1477934207,"u":"48","run":"0.67","mem":"50.23","data":"{\"function\":\"backup_zip_files\",\"title\":\"Zipping up files\"}"}
+{"event":"milestone","time":1477934207,"u":"48","run":"0.67","mem":"50.23","data":"start_files"}
+{"event":"details","time":1477934207,"u":"48","run":"0.67","mem":"50.23","data":"Backup root: `\/home\/midweek\/public_html\/`."}
+{"event":"message","time":1477934207,"u":"49","run":"0.69","mem":"50.24","data":"Running standard ZIP system based on settings."}
+{"event":"details","time":1477934207,"u":"49","run":"0.69","mem":"50.24","data":"Running under 64-bit PHP"}
+{"event":"details","time":1477934207,"u":"49","run":"0.69","mem":"50.24","data":"Server API: cgi-fcgi"}
+{"event":"details","time":1477934207,"u":"49","run":"0.69","mem":"50.24","data":"Using Best Available zip method based on settings."}
+{"event":"details","time":1477934207,"u":"49","run":"0.69","mem":"50.24","data":"Creating ZIP file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip`. Adding directory `\/home\/midweek\/public_html\/`. Excludes: \/cgi-bin\/,\/.sucuriquarantine\/,\/wp-content\/uploads\/sucuri\/,\/wp-content\/envato-backups\/,\/wp-content\/uploads\/backwpup,\/wp-content\/backup-db\/,\/wp-snapshots\/,\/wp-content\/ai1wm-backups\/,\/wp-content\/plugins\/wordfence\/tmp\/,\/error_log,\/wp-content\/uploads\/backupbuddy_backups\/,\/wp-content\/uploads\/pb_backupbuddy\/,\/importbuddy\/,\/importbuddy.php"}
+{"event":"details","time":1477934207,"u":"51","run":"0.70","mem":"50.29","data":"Trying exec method for ZIP."}
+{"event":"details","time":1477934207,"u":"51","run":"0.70","mem":"50.30","data":"Using zip version: 3.0"}
+{"event":"details","time":1477934207,"u":"51","run":"0.70","mem":"50.30","data":"Zip archive creation compression enabled based on settings."}
+{"event":"details","time":1477934207,"u":"51","run":"0.70","mem":"50.30","data":"Zip archive creation symbolic links will not be followed based on settings."}
+{"event":"details","time":1477934207,"u":"51","run":"0.70","mem":"50.30","data":"Zip archive creation actionable warnings will not be ignored based on settings."}
+{"event":"details","time":1477934207,"u":"51","run":"0.70","mem":"50.30","data":"Creating backup exclusions file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_o9wsis7boi\/exclusions.txt`."}
+{"event":"details","time":1477934207,"u":"51","run":"0.70","mem":"50.30","data":"Omitting exclusion as file\/directory does not currently exist: `\/cgi-bin\/`."}
+{"event":"details","time":1477934207,"u":"51","run":"0.70","mem":"50.30","data":"Omitting exclusion as file\/directory does not currently exist: `\/.sucuriquarantine\/`."}
+{"event":"details","time":1477934207,"u":"51","run":"0.70","mem":"50.30","data":"Omitting exclusion as file\/directory does not currently exist: `\/wp-content\/uploads\/sucuri\/`."}
+{"event":"details","time":1477934207,"u":"51","run":"0.70","mem":"50.30","data":"Omitting exclusion as file\/directory does not currently exist: `\/wp-content\/envato-backups\/`."}
+{"event":"details","time":1477934207,"u":"51","run":"0.70","mem":"50.30","data":"Omitting exclusion as file\/directory does not currently exist: `\/wp-content\/uploads\/backwpup`."}
+{"event":"details","time":1477934207,"u":"51","run":"0.70","mem":"50.30","data":"Omitting exclusion as file\/directory does not currently exist: `\/wp-content\/backup-db\/`."}
+{"event":"details","time":1477934207,"u":"51","run":"0.70","mem":"50.30","data":"Omitting exclusion as file\/directory does not currently exist: `\/wp-snapshots\/`."}
+{"event":"details","time":1477934207,"u":"51","run":"0.71","mem":"50.30","data":"Omitting exclusion as file\/directory does not currently exist: `\/wp-content\/ai1wm-backups\/`."}
+{"event":"details","time":1477934207,"u":"51","run":"0.71","mem":"50.30","data":"Omitting exclusion as file\/directory does not currently exist: `\/wp-content\/plugins\/wordfence\/tmp\/`."}
+{"event":"details","time":1477934207,"u":"51","run":"0.71","mem":"50.30","data":"Excluding file `\/error_log`."}
+{"event":"details","time":1477934207,"u":"51","run":"0.71","mem":"50.30","data":"Excluding directory `\/wp-content\/uploads\/backupbuddy_backups\/`."}
+{"event":"details","time":1477934207,"u":"51","run":"0.71","mem":"50.30","data":"Excluding directory `\/wp-content\/uploads\/pb_backupbuddy\/`."}
+{"event":"details","time":1477934207,"u":"51","run":"0.71","mem":"50.30","data":"Omitting exclusion as file\/directory does not currently exist: `\/importbuddy\/`."}
+{"event":"details","time":1477934207,"u":"51","run":"0.71","mem":"50.30","data":"Omitting exclusion as file\/directory does not currently exist: `\/importbuddy.php`."}
+{"event":"details","time":1477934207,"u":"52","run":"0.72","mem":"50.30","data":"Backup exclusions file created."}
+{"event":"details","time":1477934207,"u":"52","run":"0.72","mem":"50.30","data":"Using exclusion file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_o9wsis7boi\/exclusions.txt`"}
+{"event":"details","time":1477934207,"u":"53","run":"0.72","mem":"50.30","data":"exec command: zip -r -q -y -lf '\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_o9wsis7boi\/temp_zip_exec_log.txt' -li -b '\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_o9wsis7boi\/' '\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_o9wsis7boi\/backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip' . -x@'\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_o9wsis7boi\/exclusions.txt'"}
+{"event":"details","time":1477934234,"u":"97","run":"28.17","mem":"50.30","data":"Zip process exit code: 0"}
+{"event":"details","time":1477934234,"u":"97","run":"28.17","mem":"50.30","data":"Zip process reported: 0 warnings"}
+{"event":"details","time":1477934234,"u":"97","run":"28.17","mem":"50.30","data":"Moving Zip Archive file to local archive directory."}
+{"event":"details","time":1477934234,"u":"97","run":"28.17","mem":"50.30","data":"Zip Archive file moved to local archive directory."}
+{"event":"message","time":1477934234,"u":"97","run":"28.17","mem":"50.30","data":"Zip Archive file successfully created with no errors or actionable warnings."}
+{"event":"details","time":1477934234,"u":"97","run":"28.17","mem":"50.31","data":"Zip Archive file size: 66181072 bytes, owned by user:group 4982:4979 with permissions 0600"}
+{"event":"details","time":1477934234,"u":"97","run":"28.17","mem":"50.30","data":"Removing temporary directory."}
+{"event":"details","time":1477934234,"u":"98","run":"28.17","mem":"50.29","data":"The exec method for ZIP was successful."}
+{"event":"message","time":1477934234,"u":"98","run":"28.17","mem":"50.27","data":"Backup ZIP file successfully created."}
+{"event":"details","time":1477934234,"u":"98","run":"28.17","mem":"50.27","data":"Chmod of ZIP file to 0644 succeeded."}
+{"event":"details","time":1477934234,"u":"98","run":"28.17","mem":"50.27","data":"Saving meta data to zip comment."}
+{"event":"startAction","time":1477934234,"u":"98","run":"28.17","mem":"50.28","data":"zipCommentMeta"}
+{"event":"details","time":1477934235,"u":"21","run":"28.40","mem":"50.28","data":"exec (zip) failed to open\/process file to set comment in file \/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip - Error Info: 14."}
+{"event":"details","time":1477934235,"u":"28","run":"28.47","mem":"50.28","data":"ZipArchive set comment in file \/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip"}
+{"event":"finishAction","time":1477934235,"u":"64","run":"28.83","mem":"50.28","data":"zipCommentMeta"}
+{"event":"details","time":1477934235,"u":"64","run":"28.83","mem":"50.28","data":"Saved meta data to zip comment."}
+{"event":"details","time":1477934235,"u":"64","run":"28.83","mem":"50.30","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1477934235,"u":"64","run":"28.83","mem":"50.30","data":"Pinging mysql."}
+{"event":"details","time":1477934235,"u":"64","run":"28.83","mem":"50.30","data":"Database Server connection status verified."}
+{"event":"details","time":1477934235,"u":"64","run":"28.83","mem":"50.31","data":"Fileoptions `o9wsis7boi.txt` saved. 8440 bytes written."}
+{"event":"details","time":1477934235,"u":"64","run":"28.83","mem":"50.29","data":"Finished function `backup_zip_files`. Peak memory usage: 50.71 MB with BackupBuddy v7.2.0.1"}
+{"event":"finishFunction","time":1477934235,"u":"64","run":"28.83","mem":"50.29","data":"{\"function\":\"backup_zip_files\"}"}
+{"event":"details","time":1477934235,"u":"64","run":"28.83","mem":"50.29","data":"-----"}
+{"event":"details","time":1477934235,"u":"64","run":"28.83","mem":"50.29","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1477934235,"u":"64","run":"28.83","mem":"50.29","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1477934235,"u":"64","run":"28.83","mem":"50.29","data":"Scheduling Cron for `o9wsis7boi`."}
+{"event":"details","time":1477934235,"u":"64","run":"28.83","mem":"50.29","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1477934235,"u":"64","run":"28.83","mem":"50.29","data":"Pinging mysql."}
+{"event":"details","time":1477934235,"u":"64","run":"28.84","mem":"50.29","data":"Database Server connection status verified."}
+{"event":"details","time":1477934235,"u":"64","run":"28.84","mem":"50.29","data":"Scheduling next step to run at `1477934235` (localized time: Oct 31, 2016 5:17:15 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `o9wsis7boi`."}
+{"event":"details","time":1477934235,"u":"65","run":"28.84","mem":"50.30","data":"Next step scheduled."}
+{"event":"startAction","time":1477934235,"u":"65","run":"28.84","mem":"50.30","data":"cronPass"}
+{"event":"cronParams","time":1477934235,"u":"65","run":"28.84","mem":"50.30","data":"eyJ0aW1lIjoxNDc3OTM0MjM1LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIm85d3Npczdib2kiXX0="}
+{"event":"details","time":1477934235,"u":"65","run":"28.84","mem":"50.29","data":"Not calling spawn_cron()."}
+{"event":"details","time":1477934235,"u":"65","run":"28.84","mem":"50.29","data":"About to run next step (integrity_check expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1477934235,"u":"65","run":"28.84","mem":"50.29","data":"Completed step function `backup_zip_files`."}
+{"event":"details","time":1477937558,"u":"42","run":"0.74","mem":"47.70","data":"--- New PHP process."}
+{"event":"details","time":1477937558,"u":"43","run":"0.74","mem":"47.70","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1477937558,"u":"43","run":"0.74","mem":"47.70","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1477937558,"u":"43","run":"0.74","mem":"47.70","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1477937558,"u":"43","run":"0.74","mem":"47.70","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1477937558,"u":"43","run":"0.74","mem":"47.70","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1477937558,"u":"43","run":"0.74","mem":"47.70","data":"Running process for serial `o9wsis7boi`..."}
+{"event":"details","time":1477937558,"u":"47","run":"0.78","mem":"49.37","data":"About to load fileoptions data for serial `o9wsis7boi`."}
+{"event":"details","time":1477937558,"u":"47","run":"0.78","mem":"49.45","data":"Fileoptions instance #39."}
+{"event":"details","time":1477937558,"u":"50","run":"0.81","mem":"49.45","data":"Created fileoptions lock file `o9wsis7boi.txt.lock` with ID: 581789967a3528.99596453."}
+{"event":"details","time":1477937558,"u":"50","run":"0.81","mem":"49.49","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1477937558,"u":"50","run":"0.81","mem":"49.49","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1477937558,"u":"50","run":"0.81","mem":"49.49","data":"cronPass"}
+{"event":"details","time":1477937558,"u":"50","run":"0.81","mem":"49.51","data":"Fileoptions `o9wsis7boi.txt` saved. 8484 bytes written."}
+{"event":"details","time":1477937558,"u":"50","run":"0.81","mem":"49.49","data":"Found next step to run: `integrity_check`."}
+{"event":"details","time":1477937558,"u":"50","run":"0.81","mem":"49.49","data":"Peak memory usage: 49.661 MB"}
+{"event":"details","time":1477937558,"u":"50","run":"0.81","mem":"49.49","data":"-----"}
+{"event":"details","time":1477937558,"u":"50","run":"0.81","mem":"49.49","data":"Starting step function `integrity_check`. Attempt #1."}
+{"event":"startFunction","time":1477937558,"u":"50","run":"0.81","mem":"49.49","data":"{\"function\":\"integrity_check\",\"title\":\"Verifying backup file integrity\"}"}
+{"event":"milestone","time":1477937558,"u":"50","run":"0.81","mem":"49.49","data":"start_integrity"}
+{"event":"message","time":1477937558,"u":"50","run":"0.81","mem":"49.49","data":"Scanning and verifying backup file integrity."}
+{"event":"details","time":1477937558,"u":"50","run":"0.81","mem":"49.49","data":"Starting integrity check on `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip`."}
+{"event":"details","time":1477937558,"u":"51","run":"0.82","mem":"49.60","data":"Started backup_integrity_check() function for `o9wsis7boi` for file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip`."}
+{"event":"details","time":1477937558,"u":"51","run":"0.82","mem":"49.60","data":"Verifying comment in zip archive."}
+{"event":"details","time":1477937558,"u":"61","run":"0.92","mem":"49.61","data":"exec (unzip) retrieved comment in file \/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip"}
+{"event":"details","time":1477937558,"u":"61","run":"0.92","mem":"49.61","data":"NOTE: It is normal to see several \"File not found\" messages in the next several log lines."}
+{"event":"details","time":1477937558,"u":"61","run":"0.92","mem":"49.61","data":"Verifying DAT file in zip archive."}
+{"event":"details","time":1477937558,"u":"66","run":"0.97","mem":"49.61","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/backupbuddy_dat.php"}
+{"event":"details","time":1477937558,"u":"70","run":"1.01","mem":"49.61","data":"File not found (exec): wp-content\/uploads\/temp_o9wsis7boi\/backupbuddy_dat.php"}
+{"event":"details","time":1477937558,"u":"73","run":"1.04","mem":"49.61","data":"File not found (exec): backupbuddy_dat.php"}
+{"event":"details","time":1477937558,"u":"73","run":"1.04","mem":"49.61","data":"Verifying database SQL file in zip archive."}
+{"event":"details","time":1477937558,"u":"73","run":"1.04","mem":"49.61","data":"Forcing to a single db_1.sql file was NOT enabled for this backup."}
+{"event":"details","time":1477937558,"u":"73","run":"1.04","mem":"49.61","data":"BackupBuddy v5.0+ format database detected."}
+{"event":"details","time":1477937558,"u":"73","run":"1.04","mem":"49.61","data":"Not database-only type backup."}
+{"event":"details","time":1477937558,"u":"76","run":"1.07","mem":"49.62","data":"File not found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/db_1.sql"}
+{"event":"details","time":1477937558,"u":"76","run":"1.07","mem":"49.61","data":"PHP based database dump type."}
+{"event":"details","time":1477937558,"u":"79","run":"1.10","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_commentmeta.sql"}
+{"event":"details","time":1477937558,"u":"82","run":"1.13","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_comments.sql"}
+{"event":"details","time":1477937558,"u":"86","run":"1.17","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_em_bookings.sql"}
+{"event":"details","time":1477937558,"u":"91","run":"1.22","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_em_events.sql"}
+{"event":"details","time":1477937558,"u":"94","run":"1.25","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_em_locations.sql"}
+{"event":"details","time":1477937559,"u":"05","run":"1.36","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_em_meta.sql"}
+{"event":"details","time":1477937559,"u":"12","run":"1.43","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_em_tickets.sql"}
+{"event":"details","time":1477937559,"u":"19","run":"1.51","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_em_tickets_bookings.sql"}
+{"event":"details","time":1477937559,"u":"22","run":"1.53","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_itsec_lockouts.sql"}
+{"event":"details","time":1477937559,"u":"25","run":"1.56","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_itsec_log.sql"}
+{"event":"details","time":1477937559,"u":"29","run":"1.60","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_itsec_temp.sql"}
+{"event":"details","time":1477937559,"u":"33","run":"1.64","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_links.sql"}
+{"event":"details","time":1477937559,"u":"45","run":"1.76","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_options.sql"}
+{"event":"details","time":1477937559,"u":"49","run":"1.80","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_postmeta.sql"}
+{"event":"details","time":1477937559,"u":"53","run":"1.84","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_posts.sql"}
+{"event":"details","time":1477937559,"u":"55","run":"1.86","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_form.sql"}
+{"event":"details","time":1477937559,"u":"58","run":"1.90","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_form_meta.sql"}
+{"event":"details","time":1477937559,"u":"63","run":"1.94","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_form_view.sql"}
+{"event":"details","time":1477937559,"u":"66","run":"1.97","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_incomplete_submissions.sql"}
+{"event":"details","time":1477937559,"u":"69","run":"2.00","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_lead.sql"}
+{"event":"details","time":1477937559,"u":"72","run":"2.03","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_lead_detail.sql"}
+{"event":"details","time":1477937559,"u":"76","run":"2.07","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_lead_detail_long.sql"}
+{"event":"details","time":1477937559,"u":"80","run":"2.11","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_lead_meta.sql"}
+{"event":"details","time":1477937559,"u":"82","run":"2.13","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_rg_lead_notes.sql"}
+{"event":"details","time":1477937559,"u":"86","run":"2.17","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_term_relationships.sql"}
+{"event":"details","time":1477937559,"u":"89","run":"2.20","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_term_taxonomy.sql"}
+{"event":"details","time":1477937559,"u":"92","run":"2.23","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_termmeta.sql"}
+{"event":"details","time":1477937559,"u":"95","run":"2.26","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_terms.sql"}
+{"event":"details","time":1477937559,"u":"98","run":"2.29","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_usermeta.sql"}
+{"event":"details","time":1477937559,"u":"00","run":"2.32","mem":"49.62","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/mdwekwps_users.sql"}
+{"event":"details","time":1477937559,"u":"00","run":"2.32","mem":"49.61","data":"Verifying WordPress wp-config.php configuration file in zip archive."}
+{"event":"details","time":1477937560,"u":"03","run":"2.34","mem":"49.62","data":"File found (exec): wp-config.php"}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.62","data":"File not found (exec): wp-content\/uploads\/backupbuddy_temp\/o9wsis7boi\/wp-config.php"}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.61","data":"Retrieving zip scan log."}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.61","data":"Calculating integrity scan status,"}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.61","data":"Status: `Pass`. Description: ``."}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.61","data":"Getting file details such as size, timestamp, etc."}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.61","data":"Saving backup file integrity check details."}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.63","data":"Fileoptions `o9wsis7boi.txt` saved. 9184 bytes written."}
+{"event":"milestone","time":1477937560,"u":"08","run":"2.39","mem":"49.50","data":"finish_integrity"}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.52","data":"Fileoptions `o9wsis7boi.txt` saved. 9236 bytes written."}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.50","data":"Finished function `integrity_check`. Peak memory usage: 49.92 MB with BackupBuddy v7.2.0.1"}
+{"event":"finishFunction","time":1477937560,"u":"08","run":"2.39","mem":"49.50","data":"{\"function\":\"integrity_check\"}"}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.50","data":"-----"}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.50","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1477937560,"u":"08","run":"2.39","mem":"49.50","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.50","data":"Scheduling Cron for `o9wsis7boi`."}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.52","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.52","data":"Pinging mysql."}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.52","data":"Database Server connection status verified."}
+{"event":"details","time":1477937560,"u":"08","run":"2.39","mem":"49.52","data":"Scheduling next step to run at `1477937560` (localized time: Oct 31, 2016 6:12:40 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `o9wsis7boi`."}
+{"event":"details","time":1477937560,"u":"09","run":"2.40","mem":"49.53","data":"Next step scheduled."}
+{"event":"startAction","time":1477937560,"u":"09","run":"2.40","mem":"49.53","data":"cronPass"}
+{"event":"cronParams","time":1477937560,"u":"09","run":"2.40","mem":"49.53","data":"eyJ0aW1lIjoxNDc3OTM3NTYwLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIm85d3Npczdib2kiXX0="}
+{"event":"details","time":1477937560,"u":"09","run":"2.40","mem":"49.52","data":"Not calling spawn_cron()."}
+{"event":"details","time":1477937560,"u":"09","run":"2.40","mem":"49.53","data":"About to run next step (post_backup expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1477937560,"u":"09","run":"2.40","mem":"49.52","data":"Completed step function `integrity_check`."}
+{"event":"details","time":1477938347,"u":"79","run":"1.03","mem":"48.47","data":"Rescheduled cron for method `process_backup` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => o9wsis7boi\n)\n`. Reschedule count: `1`. Previous method: `live`."}
+{"event":"details","time":1477958673,"u":"69","run":"0.97","mem":"48.60","data":"--- New PHP process."}
+{"event":"details","time":1477958673,"u":"72","run":"0.99","mem":"48.60","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1477958673,"u":"72","run":"0.99","mem":"48.60","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1477958673,"u":"72","run":"0.99","mem":"48.60","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1477958673,"u":"72","run":"0.99","mem":"48.60","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1477958673,"u":"72","run":"0.99","mem":"48.60","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1477958673,"u":"72","run":"0.99","mem":"48.60","data":"Running process for serial `o9wsis7boi`..."}
+{"event":"details","time":1477958673,"u":"79","run":"1.06","mem":"50.27","data":"About to load fileoptions data for serial `o9wsis7boi`."}
+{"event":"details","time":1477958673,"u":"79","run":"1.07","mem":"50.35","data":"Fileoptions instance #39."}
+{"event":"details","time":1477958673,"u":"81","run":"1.09","mem":"50.35","data":"Created fileoptions lock file `o9wsis7boi.txt.lock` with ID: 5817dc11c81144.01629669."}
+{"event":"details","time":1477958673,"u":"82","run":"1.10","mem":"50.39","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1477958673,"u":"82","run":"1.10","mem":"50.39","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1477958673,"u":"83","run":"1.10","mem":"50.39","data":"cronPass"}
+{"event":"details","time":1477958673,"u":"83","run":"1.10","mem":"50.41","data":"Fileoptions `o9wsis7boi.txt` saved. 9280 bytes written."}
+{"event":"details","time":1477958673,"u":"83","run":"1.10","mem":"50.40","data":"Found next step to run: `post_backup`."}
+{"event":"details","time":1477958673,"u":"83","run":"1.10","mem":"50.40","data":"Peak memory usage: 50.563 MB"}
+{"event":"details","time":1477958673,"u":"83","run":"1.10","mem":"50.40","data":"-----"}
+{"event":"details","time":1477958673,"u":"83","run":"1.10","mem":"50.40","data":"Starting step function `post_backup`. Attempt #1."}
+{"event":"startFunction","time":1477958673,"u":"83","run":"1.10","mem":"50.40","data":"{\"function\":\"post_backup\",\"title\":\"Cleaning up\"}"}
+{"event":"message","time":1477958673,"u":"83","run":"1.10","mem":"50.40","data":"Cleaning up after backup."}
+{"event":"details","time":1477958673,"u":"83","run":"1.10","mem":"50.40","data":"Removing temp data directory."}
+{"event":"details","time":1477958673,"u":"86","run":"1.14","mem":"50.40","data":"Trimming old archives (if needed)."}
+{"event":"details","time":1477958673,"u":"87","run":"1.14","mem":"50.40","data":"Trimmed 0 old archives based on settings archive limits."}
+{"event":"details","time":1477958673,"u":"87","run":"1.14","mem":"50.40","data":"Final ZIP file size: 63.12 MB"}
+{"event":"archiveSize","time":1477958673,"u":"87","run":"1.14","mem":"50.40","data":"63.12 MB"}
+{"event":"details","time":1477958673,"u":"87","run":"1.14","mem":"50.40","data":"Updating statistics for last backup completed and number of edits since last backup."}
+{"event":"details","time":1477958673,"u":"88","run":"1.16","mem":"50.66","data":"Cleaning up any old temporary zip directories in: `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_temp\/`. If no recent backups then the temp directory will also be purged."}
+{"event":"details","time":1477958673,"u":"88","run":"1.16","mem":"50.65","data":"Sending scheduled backup complete email notification."}
+{"event":"details","time":1477958673,"u":"88","run":"1.16","mem":"50.66","data":"Fileoptions instance #37."}
+{"event":"details","time":1477958673,"u":"88","run":"1.16","mem":"50.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1477958673,"u":"89","run":"1.17","mem":"50.72","data":"Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http:\/\/www.midweekhiit.com`; recipient(s): ``."}
+{"event":"message","time":1477958673,"u":"89","run":"1.17","mem":"50.66","data":"Finished cleaning up."}
+{"event":"archiveInfo","time":1477958673,"u":"89","run":"1.17","mem":"50.66","data":"{\"file\":\"backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip\",\"url\":\"http:\\\/\\\/www.midweekhiit.com\\\/wp-admin\\\/admin-ajax.php?action=pb_backupbuddy_backupbuddy&function=download_archive&backupbuddy_backup=backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip\"}"}
+{"event":"details","time":1477958673,"u":"89","run":"1.17","mem":"50.67","data":"Fileoptions `o9wsis7boi.txt` saved. 9340 bytes written."}
+{"event":"details","time":1477958673,"u":"89","run":"1.17","mem":"50.66","data":"Finished function `post_backup`. Peak memory usage: 50.905 MB with BackupBuddy v7.2.0.1"}
+{"event":"finishFunction","time":1477958673,"u":"89","run":"1.17","mem":"50.66","data":"{\"function\":\"post_backup\"}"}
+{"event":"details","time":1477958673,"u":"89","run":"1.17","mem":"50.66","data":"-----"}
+{"event":"details","time":1477958673,"u":"89","run":"1.17","mem":"50.66","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1477958673,"u":"89","run":"1.17","mem":"50.66","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1477958673,"u":"89","run":"1.17","mem":"50.66","data":"Scheduling Cron for `o9wsis7boi`."}
+{"event":"details","time":1477958673,"u":"91","run":"1.18","mem":"50.68","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1477958673,"u":"91","run":"1.18","mem":"50.68","data":"Pinging mysql."}
+{"event":"details","time":1477958673,"u":"91","run":"1.18","mem":"50.68","data":"Database Server connection status verified."}
+{"event":"details","time":1477958673,"u":"91","run":"1.18","mem":"50.68","data":"Scheduling next step to run at `1477958673` (localized time: Nov 1, 2016 12:04:33 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `o9wsis7boi`."}
+{"event":"details","time":1477958673,"u":"91","run":"1.19","mem":"50.67","data":"Next step scheduled."}
+{"event":"startAction","time":1477958673,"u":"91","run":"1.19","mem":"50.67","data":"cronPass"}
+{"event":"cronParams","time":1477958673,"u":"91","run":"1.19","mem":"50.67","data":"eyJ0aW1lIjoxNDc3OTU4NjczLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIm85d3Npczdib2kiXX0="}
+{"event":"details","time":1477958673,"u":"91","run":"1.19","mem":"50.66","data":"Not calling spawn_cron()."}
+{"event":"details","time":1477958673,"u":"91","run":"1.19","mem":"50.67","data":"About to run next step (send_remote_destination expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1477958673,"u":"91","run":"1.19","mem":"50.66","data":"Completed step function `post_backup`."}
+{"event":"details","time":1477958678,"u":"47","run":"3.29","mem":"52.31","data":"Rescheduled cron for method `process_backup` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => o9wsis7boi\n)\n`. Reschedule count: `1`. Previous method: `live`."}
+{"event":"details","time":1477963643,"u":"49","run":"0.75","mem":"48.04","data":"Rescheduled cron for method `process_backup` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => o9wsis7boi\n)\n`. Reschedule count: `2`. Previous method: `housekeeping`."}
+{"event":"details","time":1477979656,"u":"61","run":"0.58","mem":"47.70","data":"--- New PHP process."}
+{"event":"details","time":1477979656,"u":"64","run":"0.61","mem":"47.70","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1477979656,"u":"64","run":"0.61","mem":"47.70","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1477979656,"u":"64","run":"0.61","mem":"47.70","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1477979656,"u":"64","run":"0.61","mem":"47.70","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1477979656,"u":"64","run":"0.61","mem":"47.70","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1477979656,"u":"64","run":"0.61","mem":"47.70","data":"Running process for serial `o9wsis7boi`..."}
+{"event":"details","time":1477979656,"u":"69","run":"0.66","mem":"49.36","data":"Exec test (zip) trying executable path: `\/usr\/local\/bin`."}
+{"event":"details","time":1477979656,"u":"72","run":"0.69","mem":"49.36","data":"Exec test (zip) FAILED: Test zip file not found."}
+{"event":"details","time":1477979656,"u":"72","run":"0.69","mem":"49.36","data":"Exec test (zip) FAILED: exec Exit Code: 127"}
+{"event":"details","time":1477979656,"u":"72","run":"0.69","mem":"49.36","data":"Exec test (zip) trying executable path: ``."}
+{"event":"details","time":1477979656,"u":"80","run":"0.77","mem":"49.36","data":"Exec test (zip) PASSED."}
+{"event":"details","time":1477979656,"u":"80","run":"0.77","mem":"49.36","data":"Checking zip version..."}
+{"event":"details","time":1477979656,"u":"83","run":"0.80","mem":"49.36","data":"Found zip version: 3.0"}
+{"event":"details","time":1477979656,"u":"83","run":"0.80","mem":"49.36","data":"Exec test (unzip) checking test file readable: \/home\/midweek\/public_html\/wp-content\/plugins\/backupbuddy\/lib\/zipbuddy\/zbzip.php"}
+{"event":"details","time":1477979656,"u":"84","run":"0.81","mem":"49.36","data":"Exec test (unzip) checking test file intact: 0a0f9b28c5ff89dfb4f2a0472be0ea8f"}
+{"event":"details","time":1477979656,"u":"86","run":"0.83","mem":"49.36","data":"Exec test (unzip) trying executable path: `\/usr\/local\/bin`."}
+{"event":"details","time":1477979656,"u":"88","run":"0.85","mem":"49.36","data":"Exec test (unzip) FAILED: Test unzip file test failed."}
+{"event":"details","time":1477979656,"u":"88","run":"0.85","mem":"49.36","data":"Exec test (unzip) FAILED: exec Exit Code: 127"}
+{"event":"details","time":1477979656,"u":"88","run":"0.85","mem":"49.36","data":"Exec test (unzip) trying executable path: ``."}
+{"event":"details","time":1477979656,"u":"91","run":"0.88","mem":"49.36","data":"Exec test (unzip) PASSED."}
+{"event":"details","time":1477979656,"u":"91","run":"0.88","mem":"49.36","data":"Checking unzip version..."}
+{"event":"details","time":1477979656,"u":"94","run":"0.91","mem":"49.36","data":"Found unzip version: 6.0"}
+{"event":"details","time":1477979656,"u":"95","run":"0.91","mem":"49.36","data":"ZipArchive test PASSED."}
+{"event":"details","time":1477979656,"u":"95","run":"0.92","mem":"49.37","data":"PCLZip class not found. Attempting to load from `\/home\/midweek\/public_html\/wp-admin\/includes\/class-pclzip.php`."}
+{"event":"details","time":1477979656,"u":"98","run":"0.95","mem":"50.10","data":"PclZip test PASSED."}
+{"event":"details","time":1477979656,"u":"99","run":"0.96","mem":"50.11","data":"About to load fileoptions data for serial `o9wsis7boi`."}
+{"event":"details","time":1477979656,"u":"00","run":"0.97","mem":"50.19","data":"Fileoptions instance #39."}
+{"event":"details","time":1477979656,"u":"01","run":"0.98","mem":"50.20","data":"Created fileoptions lock file `o9wsis7boi.txt.lock` with ID: 58182e0902a2e6.45378827."}
+{"event":"details","time":1477979657,"u":"02","run":"0.99","mem":"50.23","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1477979657,"u":"02","run":"0.99","mem":"50.23","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1477979657,"u":"02","run":"0.99","mem":"50.23","data":"cronPass"}
+{"event":"details","time":1477979657,"u":"02","run":"0.99","mem":"50.25","data":"Fileoptions `o9wsis7boi.txt` saved. 9384 bytes written."}
+{"event":"details","time":1477979657,"u":"02","run":"0.99","mem":"50.23","data":"Found next step to run: `send_remote_destination`."}
+{"event":"details","time":1477979657,"u":"02","run":"0.99","mem":"50.23","data":"Peak memory usage: 50.712 MB"}
+{"event":"details","time":1477979657,"u":"02","run":"0.99","mem":"50.23","data":"-----"}
+{"event":"details","time":1477979657,"u":"02","run":"0.99","mem":"50.23","data":"Starting step function `send_remote_destination`. Attempt #1."}
+{"event":"startFunction","time":1477979657,"u":"02","run":"0.99","mem":"50.23","data":"{\"function\":\"send_remote_destination\",\"title\":\"send_remote_destination\"}"}
+{"event":"details","time":1477979657,"u":"02","run":"0.99","mem":"50.23","data":"Sending file to remote destination ID: `0`. Delete after: `1`."}
+{"event":"details","time":1477979657,"u":"03","run":"0.99","mem":"50.23","data":"IMPORTANT: If the transfer is set to be chunked then only the first chunk status will be displayed during this process. Subsequent chunks will happen after this has finished."}
+{"event":"details","time":1477979657,"u":"03","run":"0.99","mem":"50.24","data":"Sending file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip` to remote destination `0` with ID `3ci7ik2buwri` triggered by ``."}
+{"event":"details","time":1477979657,"u":"03","run":"1.00","mem":"50.24","data":"Fileoptions instance #35."}
+{"event":"details","time":1477979657,"u":"03","run":"1.00","mem":"50.24","data":"Created fileoptions lock file `send-3ci7ik2buwri.txt.lock` with ID: 58182e09078382.96407478."}
+{"event":"details","time":1477979657,"u":"03","run":"1.00","mem":"50.24","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1477979657,"u":"03","run":"1.00","mem":"50.25","data":"Not sending importbuddy."}
+{"event":"details","time":1477979657,"u":"03","run":"1.00","mem":"50.26","data":"Fileoptions `send-3ci7ik2buwri.txt` saved. 656 bytes written."}
+{"event":"details","time":1477979657,"u":"03","run":"1.00","mem":"50.26","data":"Unlocked fileoptions lock file `send-3ci7ik2buwri.txt.lock` in with lock ID `58182e09078382.96407478`."}
+{"event":"details","time":1477979657,"u":"05","run":"1.02","mem":"50.41","data":"Calling destination send() function."}
+{"event":"details","time":1477979657,"u":"05","run":"1.02","mem":"50.41","data":"Adding status serial `remote_send-3ci7ik2buwri`."}
+{"event":"details","time":1477979657,"u":"05","run":"1.02","mem":"50.42","data":"----- Initiating master send function for BackupBuddy v7.2.0.1 for basename file: `backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip`. Post-send deletion: 1"}
+{"event":"details","time":1477979657,"u":"06","run":"1.02","mem":"50.42","data":"Created fileoptions lock file `send-3ci7ik2buwri.txt.lock` with ID: 58182e090ea8b4.65233076."}
+{"event":"details","time":1477979657,"u":"06","run":"1.03","mem":"50.42","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1477979657,"u":"06","run":"1.03","mem":"50.42","data":"Fileoptions `send-3ci7ik2buwri.txt` saved. 1128 bytes written."}
+{"event":"details","time":1477979657,"u":"06","run":"1.03","mem":"50.42","data":"Initializing destination."}
+{"event":"details","time":1477979657,"u":"07","run":"1.04","mem":"50.42","data":"Loading destination init file `\/home\/midweek\/public_html\/wp-content\/plugins\/backupbuddy\/destinations\/dropbox2\/init.php`."}
+{"event":"details","time":1477979657,"u":"08","run":"1.05","mem":"50.55","data":"Destination init loaded."}
+{"event":"details","time":1477979657,"u":"11","run":"1.08","mem":"50.61","data":"Initialized `dropbox2` destination."}
+{"event":"details","time":1477979657,"u":"11","run":"1.08","mem":"50.61","data":"Applying destination-specific defaults."}
+{"event":"details","time":1477979657,"u":"11","run":"1.08","mem":"50.62","data":"Applying global destination defaults."}
+{"event":"details","time":1477979657,"u":"11","run":"1.08","mem":"50.61","data":"Calling destination-specific send method."}
+{"event":"details","time":1477979657,"u":"11","run":"1.08","mem":"50.62","data":"Dropbox2 send function started. Remote send id: `3ci7ik2buwri`."}
+{"event":"details","time":1477979657,"u":"12","run":"1.09","mem":"50.91","data":"Connected to Dropbox."}
+{"event":"details","time":1477979657,"u":"12","run":"1.09","mem":"50.91","data":"Opening file `backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip` to send."}
+{"event":"details","time":1477979657,"u":"12","run":"1.09","mem":"50.92","data":"Dropbox send not set to be chunked."}
+{"event":"details","time":1477979657,"u":"12","run":"1.09","mem":"50.92","data":"About to put file `backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip` (63.12 MB) to Dropbox (PHP 5.3+)."}
+{"event":"details","time":1477979689,"u":"80","run":"33.76","mem":"51.08","data":"About to load fileoptions data."}
+{"event":"details","time":1477979689,"u":"80","run":"33.77","mem":"51.08","data":"Fileoptions instance #14."}
+{"event":"details","time":1477979689,"u":"80","run":"33.77","mem":"51.09","data":"Created fileoptions lock file `send-3ci7ik2buwri.txt.lock` with ID: 58182e29c38fd5.04498983."}
+{"event":"details","time":1477979689,"u":"80","run":"33.77","mem":"51.09","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1477979689,"u":"80","run":"33.77","mem":"51.09","data":"Fileoptions data loaded."}
+{"event":"details","time":1477979689,"u":"80","run":"33.77","mem":"51.09","data":"Dropbox (non-chunked) transfer stats - Sent: `63.12 MB`, Transfer duration: `32.6723611355`, Speed: `1.93 MB\/sec`."}
+{"event":"details","time":1477979689,"u":"80","run":"33.77","mem":"51.09","data":"Fileoptions `send-3ci7ik2buwri.txt` saved. 1176 bytes written."}
+{"event":"message","time":1477979689,"u":"80","run":"33.77","mem":"51.09","data":"Success sending `backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip` to Dropbox!"}
+{"event":"details","time":1477979689,"u":"80","run":"33.77","mem":"51.09","data":"Dropbox file limit in place. Proceeding with enforcement."}
+{"event":"details","time":1477979690,"u":"15","run":"34.11","mem":"51.10","data":"Dropbox backup file count of `4` exceeds limit of `3`."}
+{"event":"details","time":1477979690,"u":"64","run":"34.61","mem":"51.10","data":"Deleted excess Dropbox file: `\/MidweekHiit\/backup-www_midweekhiit_com-2016_09_29-08_39pm-full-zem5w57q75.zip`"}
+{"event":"details","time":1477979690,"u":"64","run":"34.61","mem":"51.10","data":"All files sent."}
+{"event":"details","time":1477979690,"u":"64","run":"34.61","mem":"51.08","data":"Completed send function. Success."}
+{"event":"details","time":1477979690,"u":"64","run":"34.61","mem":"51.08","data":"About to load fileoptions data."}
+{"event":"details","time":1477979690,"u":"64","run":"34.61","mem":"51.08","data":"Fileoptions instance #16."}
+{"event":"details","time":1477979690,"u":"64","run":"34.61","mem":"51.08","data":"Created fileoptions lock file `send-3ci7ik2buwri.txt.lock` with ID: 58182e2a9e3e73.77245183."}
+{"event":"details","time":1477979690,"u":"64","run":"34.61","mem":"51.08","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1477979690,"u":"64","run":"34.61","mem":"51.08","data":"Fileoptions data loaded."}
+{"event":"details","time":1477979690,"u":"64","run":"34.61","mem":"51.08","data":"Post-send deletion enabled."}
+{"event":"details","time":1477979690,"u":"64","run":"34.61","mem":"51.08","data":"Performing post-send deletion since transfer succeeded."}
+{"event":"details","time":1477979690,"u":"64","run":"34.61","mem":"51.08","data":"Deleting local file `\/home\/midweek\/public_html\/wp-content\/uploads\/backupbuddy_backups\/backup-www_midweekhiit_com-2016_10_31-05_10am-full-o9wsis7boi.zip`."}
+{"event":"details","time":1477979690,"u":"70","run":"34.66","mem":"51.08","data":"Deleted local file after successful remote destination send based on settings."}
+{"event":"archiveDeleted","time":1477979690,"u":"70","run":"34.67","mem":"51.08","data":""}
+{"event":"details","time":1477979690,"u":"70","run":"34.67","mem":"51.08","data":"Finished sending email NOT enabled. Skipping."}
+{"event":"details","time":1477979690,"u":"70","run":"34.67","mem":"51.08","data":"Ending send() function pass."}
+{"event":"details","time":1477979690,"u":"70","run":"34.67","mem":"51.06","data":"Finished destination send() function."}
+{"event":"details","time":1477979690,"u":"71","run":"34.68","mem":"51.08","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1477979690,"u":"71","run":"34.68","mem":"51.08","data":"Pinging mysql."}
+{"event":"details","time":1477979690,"u":"71","run":"34.68","mem":"51.08","data":"Database Server connection status verified."}
+{"event":"details","time":1477979690,"u":"71","run":"34.68","mem":"51.08","data":"About to load fileoptions data for saving send status."}
+{"event":"details","time":1477979690,"u":"71","run":"34.68","mem":"51.08","data":"Fileoptions instance #34."}
+{"event":"details","time":1477979690,"u":"71","run":"34.68","mem":"51.09","data":"Created fileoptions lock file `send-3ci7ik2buwri.txt.lock` with ID: 58182e2aaf1fd1.69591274."}
+{"event":"details","time":1477979690,"u":"71","run":"34.68","mem":"51.09","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1477979690,"u":"71","run":"34.68","mem":"51.09","data":"Fileoptions data loaded for ID `3ci7ik2buwri`."}
+{"event":"details","time":1477979690,"u":"71","run":"34.68","mem":"51.09","data":"Remote send SUCCESS."}
+{"event":"details","time":1477979690,"u":"71","run":"34.68","mem":"51.09","data":"Fileoptions `send-3ci7ik2buwri.txt` saved. 1320 bytes written."}
+{"event":"details","time":1477979690,"u":"71","run":"34.68","mem":"51.10","data":"Fileoptions `o9wsis7boi.txt` saved. 9420 bytes written."}
+{"event":"details","time":1477979690,"u":"71","run":"34.68","mem":"51.08","data":"Finished function `send_remote_destination`. Peak memory usage: 63.217 MB with BackupBuddy v7.2.0.1"}
+{"event":"finishFunction","time":1477979690,"u":"71","run":"34.68","mem":"51.08","data":"{\"function\":\"send_remote_destination\"}"}
+{"event":"details","time":1477979690,"u":"71","run":"34.68","mem":"51.08","data":"-----"}
+{"event":"details","time":1477979690,"u":"71","run":"34.68","mem":"51.08","data":"No more backup steps remain. Finishing..."}
+{"event":"details","time":1477979690,"u":"72","run":"34.68","mem":"51.10","data":"Fileoptions `o9wsis7boi.txt` saved. 9464 bytes written."}
+{"event":"startFunction","time":1477979690,"u":"72","run":"34.68","mem":"51.08","data":"{\"function\":\"backup_success\",\"title\":\"Backup completed successfully.\"}"}
+{"event":"finishFunction","time":1477979690,"u":"72","run":"34.69","mem":"51.08","data":"{\"function\":\"backup_success\"}"}
+{"event":"details","time":1477979690,"u":"72","run":"34.69","mem":"51.08","data":"Closing & unlocking fileoptions."}
+{"event":"details","time":1477979690,"u":"72","run":"34.69","mem":"51.08","data":"Completed step function `send_remote_destination`."}
+{"event":"details","time":1477979690,"u":"72","run":"34.69","mem":"51.08","data":"Rescheduled cron for method `live` as setting to limit single cron per pass enabled. Details: `Array\n(\n)\n`. Reschedule count: `2`. Previous method: `process_backup`."}
+{"event":"details","time":1477979690,"u":"74","run":"34.71","mem":"51.15","data":"Rescheduled cron for method `live` as setting to limit single cron per pass enabled. Details: `Array\n(\n)\n`. Reschedule count: `1`. Previous method: `process_backup`."}

@@ -1,0 +1,45 @@
+{"event":"details","time":1474927765,"u":"00","run":"68.03","mem":"71.02","data":"----- Initiating master send function for BackupBuddy v7.1.6.0 for basename file: `Google_CacheParser.php`. Post-send deletion: "}
+{"event":"details","time":1474927765,"u":"00","run":"68.03","mem":"71.02","data":"Created fileoptions lock file `send-live_8d8a90818f8715e73676dc78cee1b586-as757q.txt.lock` with ID: 57e99c9601fab8.88523832."}
+{"event":"details","time":1474927765,"u":"00","run":"68.03","mem":"71.02","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1474927765,"u":"00","run":"68.03","mem":"71.03","data":"Fileoptions `send-live_8d8a90818f8715e73676dc78cee1b586-as757q.txt` saved. 3184 bytes written."}
+{"event":"details","time":1474927765,"u":"00","run":"68.03","mem":"71.02","data":"Initializing destination."}
+{"event":"details","time":1474927765,"u":"00","run":"68.03","mem":"71.02","data":"Loading destination init file `\/home\/midweek\/public_html\/wp-content\/plugins\/backupbuddy\/destinations\/live\/init.php`."}
+{"event":"details","time":1474927765,"u":"01","run":"68.03","mem":"71.02","data":"Destination init loaded."}
+{"event":"details","time":1474927765,"u":"01","run":"68.03","mem":"71.02","data":"Initialized `live` destination."}
+{"event":"details","time":1474927765,"u":"01","run":"68.03","mem":"71.02","data":"Applying destination-specific defaults."}
+{"event":"details","time":1474927766,"u":"01","run":"68.04","mem":"71.03","data":"Applying global destination defaults."}
+{"event":"details","time":1474927766,"u":"01","run":"68.04","mem":"71.03","data":"Calling destination-specific send method."}
+{"event":"details","time":1474927766,"u":"02","run":"68.04","mem":"71.04","data":"Starting S32 send()."}
+{"event":"details","time":1474927766,"u":"02","run":"68.05","mem":"71.06","data":"Using bundled cacert.pem file based on destination settings."}
+{"event":"details","time":1474927766,"u":"07","run":"68.09","mem":"71.88","data":"Guzzle client cainfo: `\/home\/midweek\/public_html\/wp-content\/plugins\/backupbuddy\/destinations\/_s3lib2\/Guzzle\/Http\/Resources\/cacert.pem`. capath: `n\/a`."}
+{"event":"details","time":1474927766,"u":"07","run":"68.09","mem":"71.90","data":"File size of `6 KB`."}
+{"event":"details","time":1474927766,"u":"07","run":"68.10","mem":"71.90","data":"Initiating multipart transfer."}
+{"event":"details","time":1474927766,"u":"27","run":"68.29","mem":"71.91","data":"Initiated multipart upload with ID `fAwIwHpULolntaRrn4.zRwVlulK3Eee7PpT5wQzQ_j6H4r8TOWFBMDZpjseL9RWTUGGO.sVqXPo0EGQ2Ot8y83fXVhUJKrUeyNfGDChcxbc_ibnPljda.09J_QdprAzcgfauq5DX5wdwj4L.f0pwxg--`."}
+{"event":"details","time":1474927766,"u":"27","run":"68.29","mem":"71.92","data":"Multipart initiated; passing over to send first chunk this run. Burst size: `10 MB`."}
+{"event":"details","time":1474927766,"u":"27","run":"68.29","mem":"71.91","data":"Max time not set in settings so detecting server max PHP runtime."}
+{"event":"details","time":1474927766,"u":"27","run":"68.29","mem":"71.91","data":"Using max runtime: `84`."}
+{"event":"details","time":1474927766,"u":"27","run":"68.29","mem":"71.92","data":"About to read in part contents of part `1` of `1` parts of file `\/home\/midweek\/public_html\/wp-content\/plugins\/wordpress-seo\/vendor\/yoast\/api-libs\/google\/io\/Google_CacheParser.php` to remote location `etuaex4u407w9159\/8ab92a213bd0e7b0217449f2f8273e47d74e9da6\/wp-content\/plugins\/wordpress-seo\/vendor\/yoast\/api-libs\/google\/io\/Google_CacheParser.php` with multipart ID `fAwIwHpULolntaRrn4.zRwVlulK3Eee7PpT5wQzQ_j6H4r8TOWFBMDZpjseL9RWTUGGO.sVqXPo0EGQ2Ot8y83fXVhUJKrUeyNfGDChcxbc_ibnPljda.09J_QdprAzcgfauq5DX5wdwj4L.f0pwxg--`."}
+{"event":"details","time":1474927766,"u":"27","run":"68.29","mem":"71.93","data":"Beginning upload."}
+{"event":"details","time":1474927766,"u":"33","run":"68.36","mem":"71.93","data":"Success sending chunk. Enable full logging for upload result details."}
+{"event":"details","time":1474927766,"u":"33","run":"68.36","mem":"71.93","data":"Uploaded size this burst: `6 KB`, Start time: `1474927766.27`. Finish time: `1474927766.34`. Elapsed: `0.0648529529572`. Speed: `90 KB`\/sec."}
+{"event":"details","time":1474927766,"u":"33","run":"68.36","mem":"71.93","data":"About to load fileoptions data."}
+{"event":"details","time":1474927766,"u":"33","run":"68.36","mem":"71.93","data":"Fileoptions instance #10."}
+{"event":"details","time":1474927766,"u":"34","run":"68.36","mem":"71.93","data":"Created fileoptions lock file `send-live_8d8a90818f8715e73676dc78cee1b586-as757q.txt.lock` with ID: 57e99c9652fd55.81039315."}
+{"event":"details","time":1474927766,"u":"34","run":"68.36","mem":"71.95","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1474927766,"u":"34","run":"68.36","mem":"71.95","data":"Fileoptions data loaded."}
+{"event":"details","time":1474927766,"u":"34","run":"68.36","mem":"71.95","data":"Getting etags and notifying of multipart upload completion."}
+{"event":"details","time":1474927766,"u":"47","run":"68.49","mem":"71.95","data":"Server notified of multipart completion."}
+{"event":"details","time":1474927766,"u":"47","run":"68.49","mem":"71.95","data":"No more parts left for this multipart upload. Clearing multipart instance variables."}
+{"event":"details","time":1474927766,"u":"47","run":"68.49","mem":"71.95","data":"Upload speed average of all chunks: `90 KB`."}
+{"event":"details","time":1474927766,"u":"47","run":"68.49","mem":"71.96","data":"Fileoptions `send-live_8d8a90818f8715e73676dc78cee1b586-as757q.txt` saved. 3352 bytes written."}
+{"event":"details","time":1474927766,"u":"47","run":"68.49","mem":"71.90","data":"Saving catalog that file `\/wp-content\/plugins\/wordpress-seo\/vendor\/yoast\/api-libs\/google\/io\/Google_CacheParser.php` has been backed up."}
+{"event":"details","time":1474927766,"u":"58","run":"68.61","mem":"71.91","data":"Fileoptions `catalog-ouacn83kse152r7.txt` saved (Live mode). 1339269 bytes written."}
+{"event":"details","time":1474927766,"u":"58","run":"68.61","mem":"71.92","data":"Fileoptions `state-ouacn83kse152r7.txt` saved. 6616 bytes written."}
+{"event":"details","time":1474927766,"u":"58","run":"68.61","mem":"71.90","data":"Completed send function. Success."}
+{"event":"details","time":1474927766,"u":"58","run":"68.61","mem":"71.90","data":"About to load fileoptions data."}
+{"event":"details","time":1474927766,"u":"58","run":"68.61","mem":"71.90","data":"Fileoptions instance #16."}
+{"event":"details","time":1474927766,"u":"58","run":"68.61","mem":"71.90","data":"Created fileoptions lock file `send-live_8d8a90818f8715e73676dc78cee1b586-as757q.txt.lock` with ID: 57e99c968fbed9.75125636."}
+{"event":"details","time":1474927766,"u":"58","run":"68.61","mem":"71.91","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1474927766,"u":"58","run":"68.61","mem":"71.91","data":"Fileoptions data loaded."}
+{"event":"details","time":1474927766,"u":"59","run":"68.61","mem":"71.91","data":"Post-send deletion not enabled."}
+{"event":"details","time":1474927766,"u":"59","run":"68.61","mem":"71.91","data":"Ending send() function pass."}
